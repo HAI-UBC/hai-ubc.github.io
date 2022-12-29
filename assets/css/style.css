@@ -1,0 +1,235 @@
+/* -------- Whole page CSS Starts --------- */
+
+.html {
+  margin-bottom: 1%;
+  font-family: 'Roboto';
+  }
+  
+.body{
+  
+  position:relative; 
+}
+
+h2 {
+    color: #0055B7;
+    font-family: 'Roboto';
+    }
+
+footer{ 
+    min-height:50px; 
+    color: grey;
+    font-family: 'Roboto';
+    
+  }
+
+  .whole{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: whitesmoke;
+    box-shadow: 8px 10px 8px 10px #888888;
+  }
+/* -------- Whole page CSS Ends --------- */
+
+
+
+
+/* -------- Navigation Bar CSS Starts --------- */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #002145;
+  overflow: hidden;
+  height: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav .buttons a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font: 1em roboto;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav .logo a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: whitesmoke;
+  border-bottom: 3px solid white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.topnav .logo {
+ float: left
+
+}
+
+.topnav .buttons {
+  float:right
+}
+
+/* -------- Navigation Bar CSS Ends--------- */
+
+
+/* -------- Home Info Column Starts --------- */
+
+
+.container{
+  margin-left: 6%;
+  margin-right: 6%;
+  display: grid;
+  grid-template-columns: 64% 32%;
+  font-family: 'Roboto';
+}
+
+.coverphoto img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: grey;
+  height: 320px;
+}
+
+.container .h2{
+  margin: 0;
+  padding: 0;
+}
+
+.box2{
+  font-size: 14px;
+}
+
+.box3{
+  font-size: 14px;
+  padding-left:20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: 100%;
+}
+}
+
+
+/* -------- Home Info Column Ends --------- */
+
+
+/* -------- People Info Column Starts --------- */
+.member {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.member img {
+  border-radius: 50%;
+  width: 150px;
+}
+.member th{  
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.member h3, h4 {
+  margin: 0;
+}
+
+/* -------- People Info Column Ends --------- */
+
+
+
+.publicationpaper h5{
+  font-family: 'Roboto';
+  margin: 0;
+  color: white;
+}
+ 
+
+ .button {
+  background-color: #0055B7; 
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.containerresearch .btn {
+  text-align: center;
+}
+
+
+
+.publications{
+  font-family: 'Roboto';
+  margin-left: 6%;
+  margin-right: 6%;
+  font-size: 14px;
+}
+
+/* --------  Research area CSS starts  -------- */
+
+.containerresearch{
+  font-family: 'Roboto';
+  margin-left: 6%;
+  margin-right: 6%;
+  font-size: 14px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.project {
+  width: 40%;
+  margin-bottom: 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: 230px;
+}
+.card h4 {
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #0055B7;
+}
+.card p {
+  margin: 0 10px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
