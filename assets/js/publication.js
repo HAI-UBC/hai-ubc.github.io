@@ -34,6 +34,13 @@ const data21 = [
     keywords: ["XAI ITS", "XAI"],
     active: "yes",
   },
+  {
+    year: 2021,
+    title: "Predicting Co-Occurring Emotions from Eye-Tracking and Interaction Data in MetaTutor. (2021) Lalle’ S., Murali Rohit, Conati C. and Azevedo R.  Proceedings of AIED 2021, the 22st International Conference on Artificial Intelligence in Education, 24% AR, ",
+    authors:"",
+    keywords: ["Eye tracking", "User affect"],
+    active:"yes",
+  },
 ];
 
 const data20 = [
@@ -56,6 +63,13 @@ const data20 = [
   title: "Non-invasive Classification of Alzheimer's Disease Using Eye Tracking and Language (2020). Jang, H., Barral, O., Carenini, G., Conati, C.  Field, T. Soroski, T.  Shajan, S.  Newton-Mason, S. Proceedings of MLHC 2020, Conference on Machine Learning for Healthcare,  813-841, 35% AR ,  ",
   authors:"", 
   keywords: ["Eye tracking", "Alzheimer"],
+  active: "yes",
+},
+{
+  year: 2020,
+  title: "A Data-Driven Student Model to Provide Adaptive Support during Video Watching Across MOOCs. (2020) Lallé, S., and Conati, C. Proceedings of AIED 2020, the 21st International Conference on Artificial Intelligence in Education. Ifrane, Morocco,  26% AR ",
+  authors:"",
+  keywords: ["MOOC"],
   active: "yes",
 },
 ];
@@ -151,7 +165,7 @@ const renderKeywords = () => {
   // const keywords = new Set();
   // data.forEach((elt) => keywords.add(...elt.keywords));
 
-  const keywords = new Set(["Alzheimer", "Eye tracking", "ET ITS", "Music Recommender", "User properties", "XAI", "XAI ITS"]);
+  const keywords = new Set(["Alzheimer", "Eye tracking", "ET ITS", "Music Recommender", "MOOC", "User properties", "User affect", "XAI", "XAI ITS"]);
 
   // get select element
   const selectElement = document.getElementById("filters");
