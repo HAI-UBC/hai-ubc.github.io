@@ -324,6 +324,10 @@ const renderList = (data, listname) => {
   data.map((elt) => {
     const newChild = document.createElement("li");
     const newLine = document.createElement("br");
+    const award = document.createElement("img");
+    award.src = 'assets/images/award.png';
+    award.width = "25";
+           
     
 
     // creating new div child
@@ -332,6 +336,7 @@ const renderList = (data, listname) => {
     divChild.dataset.title = elt.title;
     divChild.dataset.authors = elt.authors;
     divChild.dataset.keywords = elt.keywords;
+    //divChild.dataset.bestpaper = elt.bestpaper;
     divChild.innerText = elt.title;
     divChild.active = elt.active;
     divChild.classList.add("publicationpaper");
@@ -342,7 +347,12 @@ const renderList = (data, listname) => {
     h5Child.style.color = "black";
     //h5Child.style.backgroundColor = "tomato"
     h5Child.innerText = elt.keywords;
+   
+   
     divChild.append(h5Child);
+    if (elt.bestpaper=="yes"){
+      divChild.append(award);
+    }
     divChild.append(newLine);
 
 
