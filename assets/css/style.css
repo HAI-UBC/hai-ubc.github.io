@@ -260,8 +260,8 @@ footer{
 
   .member img {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: auto;
   }
 
   .container{
