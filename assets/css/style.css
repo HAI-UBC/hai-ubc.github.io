@@ -247,6 +247,13 @@ footer{
     height: 20%
   }
 
+  .container{
+    margin-left: 6%;
+    margin-right: 6%;
+    display: block;
+    font-family: 'Roboto';
+  }
+
   .box3{
     clear: left;
   }
