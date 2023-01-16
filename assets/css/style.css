@@ -38,7 +38,7 @@ footer{
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #002145;
-  /* overflow: hidden; */
+  overflow: inherit; 
   height: 50px;
 }
 
@@ -127,14 +127,6 @@ footer{
 
 
 
-
-@media screen and (max-width: 600px) {
-  .box {
-    width: 100%;
-}
-}
-
-
 /* -------- Home Info Column Ends --------- */
 
 
@@ -149,7 +141,7 @@ footer{
 
 #grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0, min(100%/3, max(64px, 100%/4))));
+  grid-template-columns: repeat(auto-fit, minmax(0, min(100%/2, max(60px, 100%/5))));
   grid-gap: 5px;
   margin-left: 20%;
 }
@@ -158,18 +150,13 @@ footer{
   padding: .5em;
   text-align: center;
   margin: auto;
+  align-self: center;
 }
 
 #grid > div > img {
   border-radius: 50%;
   width: 120px;
 }
-
-/* .member th{  
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-} */
 
 
 .member h3, h4 {
@@ -251,6 +238,11 @@ footer{
   line-height: 1.5;
 }
 
+.publications .select{
+  width: 180px; 
+  font-size: xx-large;
+}
+
 
 @media (max-width: 480px) {
   .whole {
@@ -283,6 +275,12 @@ footer{
     font-size: 12px;
     font-family: 'Roboto';
   }
+
+  .publications .select{
+    width: 180px; 
+    font-size: small;
+  }
+
 }
 
 
