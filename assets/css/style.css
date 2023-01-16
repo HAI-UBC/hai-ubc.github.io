@@ -248,10 +248,20 @@ footer{
       margin-left: 0 !important;
       margin-right: 0 !important;        
   }
+
+  .coverphoto img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: grey;
+    max-width: 100%;
+    height: auto;
+  }
+
   .member img {
     border-radius: 50%;
     width: 80px;
-    height: 60px;
+    height: 80px;
   }
 
   .container{
@@ -275,9 +285,9 @@ footer{
     float: left;
     color: white;
     text-align: center;
-    padding: 7px 8px;
+    padding: 3px 4px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'Roboto';
   }
 
@@ -290,9 +300,9 @@ footer{
     float: left;
     color: white;
     text-align: center;
-    padding: 7px 8px;
+    padding: 3px 4px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 8px;
     font: 1em roboto;
   }
 
