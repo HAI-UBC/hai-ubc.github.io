@@ -38,7 +38,7 @@ footer{
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #002145;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 50px;
 }
 
@@ -61,7 +61,7 @@ footer{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Roboto';
 }
 
@@ -142,18 +142,34 @@ footer{
 .member {
   text-align: center;
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 12px;
+  margin: auto;
 }
 
-.member img {
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, min(100%/3, max(64px, 100%/4))));
+  grid-gap: 5px;
+  margin-left: 20%;
+}
+
+#grid > div {
+  padding: .5em;
+  text-align: center;
+  margin: auto;
+}
+
+#grid > div > img {
   border-radius: 50%;
   width: 120px;
 }
-.member th{  
+
+/* .member th{  
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
-}
+} */
 
 
 .member h3, h4 {
@@ -244,7 +260,7 @@ footer{
   .member img {
     border-radius: 50%;
     width: 80px;
-    height: 20%
+    height: 60px;
   }
 
   .container{
@@ -257,4 +273,16 @@ footer{
   .box3{
     clear: left;
   }
+
+  .topnav .logo a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Roboto';
+  }
 }
+
+
