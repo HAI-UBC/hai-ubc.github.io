@@ -141,23 +141,22 @@ footer{
 
 #grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0, min(100%/2, max(60px, 100%/5))));
-  grid-gap: 5px;
-  margin-left: 20%;
+  /* grid-template-columns: repeat(auto-fit, minmax(0, min(100%/2, max(60px, 100%/5)))); */
+  grid-gap: 2px;
+  grid-template-columns: repeat(4, 1fr); 
 }
 
 #grid > div {
   padding: .5em;
   text-align: center;
   margin: auto;
-  align-self: center;
+  /* align-self: center; */
 }
 
 #grid > div > img {
   border-radius: 50%;
   width: 120px;
 }
-
 
 .member h3, h4 {
   margin: 0;
@@ -238,7 +237,7 @@ footer{
   line-height: 1.5;
 }
 
-.publications .select{
+.publications .filters{
   width: 180px; 
   font-size: xx-large;
 }
@@ -266,6 +265,12 @@ footer{
     clear: left;
   }
 
+  #grid {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(1, 1fr); 
+  }
+
   .topnav .logo a {
     float: left;
     color: white;
@@ -276,11 +281,22 @@ footer{
     font-family: 'Roboto';
   }
 
-  .publications .select{
+  .publications .filters{
     width: 180px; 
     font-size: small;
   }
 
+  .topnav .buttons a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 10px;
+    font: 1em roboto;
+  }
+
+  
 }
 
 
