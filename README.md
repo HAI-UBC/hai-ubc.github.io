@@ -7,7 +7,7 @@
 3. Follow the pattern in the existing code to add a new publication.
 4. Find the year to add. And add a json within that year. 
 Try adding 
-
+'''
     {
         year: 20__,
         title: " Paper title ",
@@ -15,7 +15,7 @@ Try adding
         keywords: ["keyword1", "keyword2"],
         active: "yes",
     },
-
+'''
 
 * Make sure that the keywords you added exists in the keywords set in the same file. 
 
@@ -24,7 +24,7 @@ Try adding
 2. Click on the edit button (pencil icon) on the top-right of the code section or [click here to edit people](https://github.com/HAI-UBC/hai-ubc.github.io/edit/main/people.html). 
 3. Follow the pattern in the existing code to add a new member.
 Try adding 
-
+'''
    <div>
         <img src="image_link" alt="alt">
         <a href="website link">
@@ -32,7 +32,7 @@ Try adding
         </a>
         <h4> MSc/PhD</h4>
     </div>
- 
+'''
 
 
 
