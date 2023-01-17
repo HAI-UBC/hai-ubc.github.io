@@ -25,13 +25,13 @@ Try adding
 3. Follow the pattern in the existing code to add a new member.
 Try adding 
 
-    <th>
-                     <img src="_image location" alt="image name">
-                     <a href="_personal website link">
-                         <h3> _membername </h3>
-                                              </a>
-                     <h4> _designation</h4>
-    </th>
+   <div>
+        <img src="image_link" alt="alt">
+        <a href="website link">
+            <h3> Jane Doe </h3>
+        </a>
+        <h4> MSc/PhD</h4>
+    </div>
  
 
 

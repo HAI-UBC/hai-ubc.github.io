@@ -1,5 +1,7 @@
 // publication data
 
+const data23=[];
+
 const data22 = [
   {
     year: 2022,
@@ -369,7 +371,9 @@ function onFilterSelect(e) {
   // get selected value
   const selected = selectElement.value;
 
+  
   // get list of publications
+  const pubList23 = document.getElementById("pub-list23");
   const pubList22 = document.getElementById("pub-list22");
   const pubList21 = document.getElementById("pub-list21");
   const pubList20 = document.getElementById("pub-list20");
@@ -386,6 +390,7 @@ function onFilterSelect(e) {
   // if the user didn't select All then show filtered list
   if (selected !== "all") {
     // filter publications based on keyword
+    const filteredData23 = data23.filter((elt) => elt.keywords.includes(selected));
     const filteredData22 = data22.filter((elt) => elt.keywords.includes(selected));
     const filteredData21 = data21.filter((elt) => elt.keywords.includes(selected));
     const filteredData20 = data20.filter((elt) => elt.keywords.includes(selected));
@@ -400,6 +405,7 @@ function onFilterSelect(e) {
     const filteredData07 = data07.filter((elt) => elt.keywords.includes(selected));
     const filteredData05 = data05.filter((elt) => elt.keywords.includes(selected));
     // clear inner html
+    pubList23.innerHTML = "";
     pubList22.innerHTML = "";
     pubList21.innerHTML = "";
     pubList20.innerHTML = "";
@@ -414,6 +420,7 @@ function onFilterSelect(e) {
     pubList07.innerHTML = "";
     pubList05.innerHTML = "";
     // render list
+    renderList(filteredData23, "pub-list23");
     renderList(filteredData22, "pub-list22");
     renderList(filteredData21, "pub-list21");
     renderList(filteredData20, "pub-list20");
@@ -429,6 +436,7 @@ function onFilterSelect(e) {
     renderList(filteredData05, "pub-list05");
   } else {
     // clear html
+    pubList23.innerHTML = "";
     pubList22.innerHTML = "";
     pubList21.innerHTML = "";
     pubList20.innerHTML = "";
@@ -443,6 +451,7 @@ function onFilterSelect(e) {
     pubList07.innerHTML = "";
     pubList05.innerHTML = "";
     // show all items
+    renderList(data23, "pub-list23");
     renderList(data22, "pub-list22");
     renderList(data21, "pub-list21");
     renderList(data20, "pub-list20");
@@ -470,6 +479,7 @@ function getParameterByName(name, url = window.location.href) {
 
 function filterquery() {
 
+  const pubList23 = document.getElementById("pub-list23");
   const pubList22 = document.getElementById("pub-list22");
   const pubList21 = document.getElementById("pub-list21");
   const pubList20 = document.getElementById("pub-list20");
@@ -489,6 +499,7 @@ function filterquery() {
 
   if (q !== null) {
     // filter publications based on keyword
+    const filteredData23 = data23.filter((elt) => elt.keywords.includes(q));
     const filteredData22 = data22.filter((elt) => elt.keywords.includes(q));
     const filteredData21 = data21.filter((elt) => elt.keywords.includes(q));
     const filteredData20 = data20.filter((elt) => elt.keywords.includes(q));
@@ -502,7 +513,9 @@ function filterquery() {
     const filteredData13 = data11.filter((elt) => elt.keywords.includes(q));
     const filteredData11 = data07.filter((elt) => elt.keywords.includes(q));
     const filteredData05 = data05.filter((elt) => elt.keywords.includes(q));
+    
     // clear inner html
+    pubList23.innerHTML = "";
     pubList22.innerHTML = "";
     pubList21.innerHTML = "";
     pubList20.innerHTML = "";
@@ -517,7 +530,9 @@ function filterquery() {
     pubList07.innerHTML = "";
     pubList05.innerHTML = "";
 
+    
     // render list
+    renderList(filteredData23, "pub-list23");
     renderList(filteredData22, "pub-list22");
     renderList(filteredData21, "pub-list21");
     renderList(filteredData20, "pub-list20");
@@ -537,6 +552,7 @@ function filterquery() {
   }
   else {
     // clear html
+    pubList23.innerHTML = "";
     pubList22.innerHTML = "";
     pubList21.innerHTML = "";
     pubList20.innerHTML = "";
@@ -550,7 +566,9 @@ function filterquery() {
     pubList11.innerHTML = "";
     pubList07.innerHTML = "";
     pubList05.innerHTML = "";
+   
     // show all items
+    renderList(data23, "pub-list23");
     renderList(data22, "pub-list22");
     renderList(data21, "pub-list21");
     renderList(data20, "pub-list20");
@@ -572,6 +590,7 @@ function filterquery() {
 
 
 renderKeywords();
+renderList(data23, "pub-list23");
 renderList(data22, "pub-list22");
 renderList(data21, "pub-list21");
 renderList(data20, "pub-list20");
