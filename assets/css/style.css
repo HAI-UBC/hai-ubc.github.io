@@ -310,11 +310,11 @@ footer{
   .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
   }
   
-  .project .img {
+  .card img {
     height: auto;
   }
 }
