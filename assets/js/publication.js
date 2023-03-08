@@ -8,6 +8,13 @@ const data23=[
     keywords: ["CT", "ITS"],
     active: "yes",
   },
+ {
+    year: 2023,
+    title: "The Impact of Intelligent Pedagogical Agents’ Interventions on Student Behavior and Performance in Open-Ended Game Design Environments. ACM Transactions on Interactive Intelligent Systems. ÖN Yalçın, S Lallé, C Conati",
+    authors: "",
+    keywords: ["CT", "ITS"],
+    active: "yes",
+  },
 ];
 
 const data22 = [
