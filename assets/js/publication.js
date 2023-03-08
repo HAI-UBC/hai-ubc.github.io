@@ -1,6 +1,14 @@
 // publication data
 
-const data23=[];
+const data23=[
+ {
+    year: 2023,
+    title: "Predicting Co-occurring Emotions in MetaTutor when Combining Eye-Tracking and Interaction Data from Separate User Studies. LAK23: 13th International Learning Analytics and Knowledge Conference. Rohit Murali, Cristina Conati, Roger Azevedo.",
+    authors: "",
+    keywords: ["CT", "ITS"],
+    active: "yes",
+  },
+];
 
 const data22 = [
   {
@@ -24,7 +32,13 @@ const data22 = [
     keywords: ["Visualization", "User adaptive"],
     active: "yes",
   },
-
+{
+    year: 2022,
+    title: "An Intelligent Pedagogical Agent to Foster Computational Thinking in Open-Ended Game Design Activities. Özge Nilay Yalçin, Sébastien Lallé, Cristina Conati. 27th International Conference on Intelligent User Interfaces.",
+    authors: "",
+    keywords: ["CT", "ITS"],
+    active: "yes",
+  },
 ];
 
 
