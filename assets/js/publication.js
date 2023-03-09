@@ -5,7 +5,7 @@ const data23=[
     year: 2023,
     title: "Predicting Co-occurring Emotions in MetaTutor when Combining Eye-Tracking and Interaction Data from Separate User Studies. LAK23: 13th International Learning Analytics and Knowledge Conference. Rohit Murali, Cristina Conati, Roger Azevedo.",
     authors: "",
-    keywords: ["CT", "ITS"],
+    keywords: ["Eye tracking", "User affect"],
     active: "yes",
   },
  {
