@@ -71,6 +71,13 @@ const data21 = [
     keywords: ["CT"],
     active: "yes",
   },
+  {
+    year: 2021,
+    title: "Effect of adaptive guidance and visualization literacy on gaze attentive behaviors and sequential patterns on magazine-style narrative visualizations. (2021) O Barral, S Lallé, A Iranpour, C Conati. ACM Transactions on Interactive Intelligent Systems (TiiS) 11 (3-4), 1-46 ",
+    authors: "",
+    keywords: ["Visualization"],
+    active: "yes",
+  },
 ];
 
 const data20 = [
