@@ -20,6 +20,13 @@ const data23=[
 const data22 = [
   {
     year: 2022,
+    title: "Explainable Artificial Intelligence in education. Comput. Educ. Artif. Intell. 3: 100074 (2022). 	Hassan Khosravi, Simon Buckingham Shum, Guanliang Chen, Cristina Conati, Yi-Shan Tsai, Judy Kay, Simon Knight, Roberto Martínez Maldonado, Shazia Wasim Sadiq, Dragan Gasevic.",
+    authors: "",
+    keywords: ["XAI"],
+    active: "yes",
+  },
+  {
+    year: 2022,
     title: "Classification of Alzheimers Disease Leveraging Multi-Task Machine Learning Analysis of Speech and Eye-Movement Data, (To Appear). Frontiers in Human Neuroscience, section Brain Health and Clinical Neuroscience. Jang H., Soroski T., Rizzo M., Barral O. Harisinghani H., Newton-MasonmS., Granby S., Lewis C., Tutt P., Carenini, G., Conati, C., Field, T. ",
     authors: "",
     keywords: ["Eye tracking", "Alzheimer"],
@@ -46,6 +53,20 @@ const data22 = [
     keywords: ["CT", "ITS"],
     active: "yes",
   },
+ {
+    year: 2022,
+    title: "Evaluating the Faithfulness of Saliency-based Explanations for Deep Learning Models for Temporal Colour Constancy.  Matteo Rizzo, Cristina Conati, Daesik Jang, Hui Hu. CoRR abs/2211.07982 (2022).",
+    authors: "",
+    keywords: ["XAI"],
+    active: "yes",
+  },
+ {
+    year: 2022,
+    title: "A Theoretical Framework for AI Models Explainability. CoRR abs/2212.14447 (2022). Matteo Rizzo, Alberto Veneri, Andrea Albarelli, Claudio Lucchese, Cristina Conati. 27th International Conference on Intelligent User Interfaces.",
+    authors: "",
+    keywords: ["XAI"],
+    active: "yes",
+  }
 ];
 
 
@@ -76,6 +97,34 @@ const data21 = [
     title: "Effect of adaptive guidance and visualization literacy on gaze attentive behaviors and sequential patterns on magazine-style narrative visualizations. (2021) O Barral, S Lallé, A Iranpour, C Conati. ACM Transactions on Interactive Intelligent Systems (TiiS) 11 (3-4), 1-46 ",
     authors: "",
     keywords: ["Visualization"],
+    active: "yes",
+  },
+ {
+    year: 2021,
+    title: "Gaze-Driven Adaptive Interventions for Magazine-Style Narrative Visualizations. 	Sébastien Lallé, Dereck Toker, Cristina Conati. IEEE Trans. Vis. Comput. Graph. 27(6): 2941-2952 (2021).",
+    authors: "",
+    keywords: ["Visualization", "Interactive Simulation"],
+    active: "yes",
+  },
+  {
+    year: 2021,
+    title: "Classifeye: Classification of Personal Characteristics Based on Eye Tracking Data in a Recommender System Interface. IUI Workshops 2021. 	Martijn Millecamp, Cristina Conati, Katrien Verbert.",
+    authors: "",
+    keywords: ["Eye tracking", "User properties"],
+    active: "yes",
+  },
+ {
+    year: 2021,
+    title: "A Framework to Counteract Suboptimal User-Behaviors in Exploratory Learning Environments: an Application to MOOCs. 	Sébastien Lallé, Cristina Conati. CoRR abs/2106.07555 (2021)",
+    authors: "",
+    keywords: ["ITS", "User properties", "MOOC"],
+    active: "yes",
+  },
+  {
+    year: 2021,
+    title: "Cascading Convolutional Temporal Colour Constancy. Matteo Rizzo, Cristina Conati, Daesik Jang, Hui Hu. CoRR abs/2106.07955 (2021)",
+    authors: "",
+    keywords: [""],
     active: "yes",
   },
 ];
@@ -139,9 +188,16 @@ const data20 = [
   },
   {
     year: 2020,
-    title: "Gaze-Driven Adaptive Interventions for Magazine-Style Narrative Visualizations. (2020) Lallé  S.,  Toker T., and Conati C. IEEE Transactions on Visualization and Computer Graphic   doi: 10.1109/TVCG.2019.2958540.",
+    title: "Gaze-Driven Links for Magazine Style Narrative Visualizations. 	Sébastien Lallé, Tiffany Wu, Cristina Conati. IEEE VIS (Short Papers) 2020: 166-170",
     authors: "",
     keywords: ["Visualization", "User adaptive"],
+    active: "yes",
+  },
+ {
+    year: 2020,
+    title: "The Eyes Are the Windows to the Mind: Implications for AI-Driven Personalized Interaction. Cristina Conati. UMAP 2020: 1",
+    authors: "",
+    keywords: ["Eye tracking"],
     active: "yes",
   },
 ];
