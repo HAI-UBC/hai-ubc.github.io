@@ -216,7 +216,42 @@ const data19 = [
     authors: "",
     keywords: ["Visualizations", "Cognitive abilities"],
     active: "yes",
-  }
+  },
+ {
+    year: 2019,
+    title: "Toward XAI for Intelligent Tutoring Systems: A Case Study.(2019) Vanessa Putnam, Lea Riegel, Cristina Conati. CoRR abs/1912.04464 va",
+    authors: "",
+    keywords: ["XAI", "ITS"],
+    active: "yes",
+  },
+  {
+    year: 2019,
+    title: "Predicting Confusion from Eye-Tracking Data with Recurrent Neural Networks.(2019) Shane D. Sims, Vanessa Putnam, Cristina Conati. CoRR abs/1906.11211",
+    authors: "",
+    keywords: ["Eye tracking", "User properties"],
+    active: "yes",
+  },
+ {
+    year: 2019,
+    title: "Exploring the Need for Explainable Artificial Intelligence (XAI) in Intelligent Tutoring Systems (ITS).	Vanessa Putnam, Cristina Conati. IUI Workshops 2019",
+    authors: "",
+    keywords: ["XAI", "ITS"],
+    active: "yes",
+  },
+  {
+    year: 2019,
+    title: "A gaze-based experimenter platform for designing and evaluating adaptive interventions in information visualizations. 	Sébastien Lallé, Cristina Conati, Dereck Toker. ETRA 2019: 60:1-60:3",
+    authors: "",
+    keywords: ["Eye tracking", "Visualizations"],
+    active: "yes",
+  },
+ {
+    year: 2019,
+    title: "The role of user differences in customization: a case study in personalization for infovis-based content. Sébastien Lallé, Cristina Conati. IUI 2019: 329-339",
+    authors: "",
+    keywords: ["Visualizations"],
+    active: "yes",
+  },
 ];
 
 const data18 = [
@@ -234,6 +269,27 @@ const data18 = [
     keywords: ["Visualizations", "Cognitive abilities"],
     active: "yes",
   },
+ {
+    year: 2018,
+    title: "AI in Education needs interpretable machine learning: Lessons from Open Learner Modelling. Cristina Conati, Kaska Porayska-Pomsta, Manolis Mavrikis:. CoRR abs/1807.00154 (2018) ",
+    authors: "",
+    keywords: [""],
+    active: "yes",
+  },
+ {
+    year: 2018,
+    title: "Driving data storytelling from learning design. 	Vanessa Echeverría, Roberto Martínez Maldonado, Roger Granda, Katherine Chiluiza, Cristina Conati, Simon Buckingham Shum. LAK 2018: 131-140 ",
+    authors: "",
+    keywords: [""],
+    active: "yes",
+  },
+ {
+    year: 2018,
+    title: "Exploratory versus Explanatory Visual Learning Analytics: Driving Teachers' Attention through Educational Data Storytelling. 	Vanessa Echeverría, Roberto Martínez Maldonado, Simon Buckingham Shum, Katherine Chiluiza, Roger Granda, Cristina Conati. J. Learn. Anal. 5(3)",
+    authors: "",
+    keywords: ["Visualizations"],
+    active: "yes",
+  },
 ];
 
 const data17 = [
@@ -249,6 +305,27 @@ const data17 = [
     title: "Applying a framework for student modeling in interactive simulations: comparing data representation granularity to handle environment complexity. (2017) Fratamico L., Conati C., Roll I.,  Kardan S.  International Journal of AI in Education, 27(2),  320-352, Springer, ",
     authors: "",
     keywords: ["Interactive Simulation"],
+    active: "yes",
+  },
+ {
+    year: 2017,
+    title: "The Impact of Student Individual Differences and Visual Attention to Pedagogical Agents During Learning with MetaTutor. (2017) 	Sébastien Lallé, Michelle Taub, Nicholas V. Mudrick, Cristina Conati, Roger Azevedo:. AIED 2017: 149-161 ",
+    authors: "",
+    keywords: ["User properties"],
+    active: "yes",
+  },
+ {
+    year: 2017,
+    title: "On the Influence on Learning of Student Compliance with Prompts Fostering Self-Regulated Learning. 	Sébastien Lallé, Cristina Conati, Roger Azevedo, Michelle Taub, Nicholas Mudrick. EDM 2017 ",
+    authors: "",
+    keywords: [""],
+    active: "yes",
+  },
+ {
+    year: 2017,
+    title: "Pupillometry and Head Distance to the Screen to Predict Skill Acquisition During Information Visualization Tasks. Dereck Toker, Sébastien Lallé, Cristina Conati: IUI 2017: 221-231 ",
+    authors: "",
+    keywords: ["Visualizations"],
     active: "yes",
   },
 ];
