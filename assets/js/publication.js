@@ -344,6 +344,20 @@ const data16 = [
     authors: "",
     keywords: ["Eye tracking", "User affect"],
     active: "yes",
+  },
+ {
+    year: 2016,
+    title: "Interaction with an Edu-Game: A Detailed Analysis of Student Emotions and Judges' Perceptions. Cristina Conati, Mirela Gutica. Int. J. Artif. Intell. Educ. 26(4): 975-1010 (2016).",
+    authors: "",
+    keywords: ["User properties"],
+    active: "yes",
+  },
+ {
+    year: 2016,
+    title: "Impact of Individual Differences on Affective Reactions to Pedagogical Agents Scaffolding. Sébastien Lallé, Nicholas V. Mudrick, Michelle Taub, Joseph F. Grafsgaard, Cristina Conati, Roger Azevedo. IVA 2016: 269-282.",
+    authors: "",
+    keywords: ["User properties"],
+    active: "yes",
   }
 ];
 
