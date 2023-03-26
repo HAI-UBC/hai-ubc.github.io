@@ -434,6 +434,62 @@ const data13 = [
     active: "yes",
     bestpaper: "yes",
   },
+ {
+    year: 2013,
+    title: "Knowledge Elicitation Methods for Affect Modelling in Education. Kaska Porayska-Pomsta, Manolis Mavrikis, Sidney K. D'Mello, Cristina Conati, Ryan Shaun Joazeiro de Baker. Int. J. Artif. Intell. Educ. 22(3): 107-140 (2013)",
+    authors: "",
+    keywords: ["User affect"],
+    active: "yes",
+  },
+  {
+    year: 2013,
+    title: "Understanding Attention to Adaptive Hints in Educational Games: An Eye-Tracking Study. Cristina Conati, Natasha Jaques, Mary Muir. Int. J. Artif. Intell. Educ. 23(1-4): 136-161 (2013)",
+    authors: "",
+    keywords: ["User affect", "OEL"],
+    active: "yes",
+  },
+ {
+    year: 2013,
+    title: "Student Modeling: Supporting Personalized Instruction, from Problem Solving to Exploratory Open Ended Activities. Cristina Conati, Samad Kardan. AI Mag. 34(3): 13-26 (2013)",
+    authors: "",
+    keywords: ["OEL"],
+    active: "yes"
+  },
+ {
+    year: 2013,
+    title: "Evaluation of a Data Mining Approach to Providing Adaptive Support in an Open-Ended Learning Environment: A Pilot Study. Samad Kardan, Cristina Conati. AIED Workshops 2013",
+    authors: "",
+    keywords: ["OEL"],
+    active: "yes"
+  },
+ {
+    year: 2013,
+    title: "Understanding Users' Interaction Behavior with an Intelligent Educational Game: Prime Climb. Alireza Davoodi, Samad Kardan, Cristina Conati. AIED Workshops 2013",
+    authors: "",
+    keywords: ["OEL", "Game"],
+    active: "yes"
+  },
+ {
+    year: 2013,
+    title: "Individual user characteristics and information visualization: connecting the dots through eye tracking. Dereck Toker, Cristina Conati, Ben Steichen, Giuseppe Carenini. CHI 2013: 295-304",
+    authors: "",
+    keywords: ["User properties", "Visualizations"],
+    active: "yes"
+  },
+ {
+    year: 2013,
+    title: "User-adaptive information visualization: using eye gaze data to infer visualization tasks and user cognitive abilities. Ben Steichen, Giuseppe Carenini, Cristina Conati. IUI 2013: 317-328.",
+    authors: "",
+    keywords: ["Visualizations"],
+    active: "yes"
+  },
+  {
+    year: 2013,
+    title: "Seeing how you're Looking - Using Real-Time Eye Gaze Data for User-Adaptive Visualization. Ben Steichen, Oliver Schmid, Cristina Conati, Giuseppe Carenini. UMAP Workshops 2013",
+    authors: "",
+    keywords: ["Eye tracking", "Visualizations"],
+    active: "yes"
+  },
 ];
 
 const data11 = [
@@ -470,7 +526,7 @@ const data05 = [
 // function to render keywords
 const renderKeywords = () => {
  
-  const keywords = new Set(["Alzheimer", "CT", "Cognitive abilities", "Eye tracking", "ET ITS", "Interactive Simulation", "Music Recommender", "MOOC", "User adaptive", "User properties", "User affect", "XAI", "XAI ITS", "Visualizations"]);
+  const keywords = new Set(["Alzheimer", "CT", "Cognitive abilities", "Eye tracking", "ET ITS", "Game", "Interactive Simulation", "Music Recommender", "MOOC", "OEL", "User adaptive", "User properties", "User affect", "XAI", "XAI ITS", "Visualizations"]);
 
   // get select element
   const selectElement = document.getElementById("filters");
