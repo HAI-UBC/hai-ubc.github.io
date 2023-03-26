@@ -200,6 +200,13 @@ const data20 = [
     keywords: ["Eye tracking"],
     active: "yes",
   },
+  {
+    year: 2020,
+    title: "Toward User-adaptive Visualizations. Cristina Conati. ICPRAM 2020: 7",
+    authors: "",
+    keywords: ["User adaptive", "Visualizations"],
+    active: "yes",
+  },
 ];
 
 const data19 = [
@@ -248,6 +255,20 @@ const data19 = [
  {
     year: 2019,
     title: "The role of user differences in customization: a case study in personalization for infovis-based content. Sébastien Lallé, Cristina Conati. IUI 2019: 329-339",
+    authors: "",
+    keywords: ["Visualizations"],
+    active: "yes",
+  },
+  {
+    year: 2019,
+    title: "Gaze-Driven Adaptive Interventions for Magazine-Style Narrative Visualizations. Sébastien Lallé, Dereck Toker, Cristina Conati. CoRR abs/1909.01379 (2019)",
+    authors: "",
+    keywords: ["Visualizations"],
+    active: "yes",
+  },
+  {
+    year: 2019,
+    title: "Gaze analysis of user characteristics in magazine style narrative visualizations. Dereck Toker, Cristina Conati, Giuseppe Carenini. User Model. User Adapt. Interact. 29(5): 977-1011 (2019)",
     authors: "",
     keywords: ["Visualizations"],
     active: "yes",
@@ -326,6 +347,27 @@ const data17 = [
     title: "Pupillometry and Head Distance to the Screen to Predict Skill Acquisition During Information Visualization Tasks. Dereck Toker, Sébastien Lallé, Cristina Conati: IUI 2017: 221-231 ",
     authors: "",
     keywords: ["Visualizations"],
+    active: "yes",
+  },
+ {
+    year: 2017,
+    title: "Impact of Individual Differences on User Experience with a Visualization Interface for Public Engagement. Sébastien Lallé, Cristina Conati, Giuseppe Carenini:. UMAP (Adjunct Publication) 2017: 247-252 ",
+    authors: "",
+    keywords: ["Visualizations"],
+    active: "yes",
+  },
+ {
+    year: 2017,
+    title: "Impact of Individual Differences on User Experience with a Real-World Visualization Interface for Public Engagement. Sébastien Lallé, Cristina Conati, Giuseppe Carenini. UMAP 2017: 369-370",
+    authors: "",
+    keywords: ["Visualizations"],
+    active: "yes",
+  },
+  {
+    year: 2017,
+    title: "Leveraging Pupil Dilation Measures for Understanding Users' Cognitive Load During Visualization Processing. Dereck Toker, Cristina Conati. UMAP (Adjunct Publication) 2017: 267-270",
+    authors: "",
+    keywords: ["Cognitive abilities", "Visualizations"],
     active: "yes",
   },
 ];
