@@ -3,6 +3,13 @@
 const data23=[
  {
     year: 2023,
+    title: "Classification of Alzheimer's using deep-learning methods on webcam-based gaze data. Anuj Harisinghani, Harshinee Sriram, Cristina Conati, Giuseppe Carenini, Hyeju Jang, Thalia Field, Gabriel Murray. ACM Symposium on Eye Tracking Research & Applications (ETRA) 2023.",
+    authors: "",
+    keywords: ["Alzheimer", "Eye tracking"],
+    active: "yes",
+  },
+ {
+    year: 2023,
     title: "Predicting Co-occurring Emotions in MetaTutor when Combining Eye-Tracking and Interaction Data from Separate User Studies. LAK23: 13th International Learning Analytics and Knowledge Conference. Rohit Murali, Cristina Conati, Roger Azevedo.",
     authors: "",
     keywords: ["Eye tracking", "User affect"],
