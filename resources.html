@@ -37,10 +37,10 @@
 
         <b>EMDAT Software and Doc:</b> <br>
         
-        Access at: https://github.com/ATUAV/EMDAT <br>
+        Access at: <a href="https://github.com/ATUAV/EMDAT"> https://github.com/ATUAV/EMDAT </a> <br>
         Documentation: Access the above link and find documentation in /doc folder. <br>
-
-        <b>UC Tests:</b> <br>
+            <br> <br>
+        <b>UC Tests:</b> &nbsp;  &nbsp;  <button onclick="myLink()">Copy link</button> <br>
         <div style="width:100%; padding-bottom:56.25%; position:relative; border:1px solid black;">
         <iframe src="https://docs.google.com/document/d/e/2PACX-1vRJzkxrq7QpwD72BA2PFNPGS75BfNG1hoAH8VrsNs0tfD8RG0SbaxYmoU6wf467v-0_X593aymKVXgG/pub?embedded=true" style="position:absolute; top:0px; left:0px; 
         width:100%; height:100%; border: none; overflow: hidden;"></iframe>
@@ -62,6 +62,7 @@
             <iframe src="https://docs.google.com/document/d/1vwLE7DnGexu5qyrMCjlUOHJf8yuKdbmae63WoovbIHI/edit?usp=sharing" style="position:absolute; top:0px; left:0px; 
             width:100%; height:100%; border: none; overflow: hidden;"></iframe>
           </div>
+          
         
         </div>
       
@@ -74,7 +75,23 @@
                 <img src="/assets/images/gh.png" width="30" height="30"> </a> 
                 </p>
         </footer>
+
+        <script>
+            function myLink() {
+          // Get the text field
+          var copyText = "https://docs.google.com/document/d/e/2PACX-1vRJzkxrq7QpwD72BA2PFNPGS75BfNG1hoAH8VrsNs0tfD8RG0SbaxYmoU6wf467v-0_X593aymKVXgG/pub";
+        
+           // Copy the text inside the text field
+          navigator.clipboard.writeText(copyText);
+        
+          // Alert the copied text
+          alert("Link copied");
+        }
+        </script>
     </body>
+
 </div>
+
+
 
 </html>
