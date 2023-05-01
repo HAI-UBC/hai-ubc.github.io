@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en"><!--[if IEMobile 7]><html class="iem7 oldie" lang="en"><![endif]--><!--[if (IE 7)&!(IEMobile)]><html class="ie7 oldie" lang="en"><![endif]--><!--[if (IE 8)&!(IEMobile)]><html class="ie8 oldie" lang="en"><![endif]--><!--[if (IE 9)&!(IEMobile)]><html class="ie9" lang="en"><![endif]--><!--[[if (gt IE 9)|(gt IEMobile 7)]><![endif]--><!--
+ * UBC CLF (Common Look and Feel) v7.0.4
+ * Copyright 2012-2013 The University of British Columbia
+ * UBC Communications and Marketing
+ * https://brand.ubc.ca/clf
+ */
+--><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Human-AI Interaction Research | Computer Science at UBC</title>
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Stylesheets -->
+
+<link href="ubc-clf-full.css" rel="stylesheet">
+<link href="unit.css" rel="stylesheet">
+<style>
+.ancreref:target {
+	background: #e6f3ff;
+}
+</style>
+
+<!--[if lte IE 7]>
+<link href="//cdn.ubc.ca/clf/7.0.4/css/font-awesome-ie7.css" rel="stylesheet">
+<![endif]-->
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="https://cdn.ubc.ca/clf/7.0.4/img/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn.ubc.ca/clf/7.0.4/img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn.ubc.ca/clf/7.0.4/img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://cdn.ubc.ca/clf/7.0.4/img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="https://cdn.ubc.ca/clf/7.0.4/img/apple-touch-icon-57-precomposed.png">
+<script src="ga.js" async="" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16965087-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+
+<body>
+    <div class="container">
+        <!-- UBC Global Utility Menu -->
+        <div class="collapse expand" id="ubc7-global-menu">
+            <div id="ubc7-search" class="expand">
+                <div id="ubc7-search-box">
+                    <form class="form-search" method="get" action="https://www.ubc.ca/search/refine/" role="search">
+                        <input name="q" placeholder="Search this website" class="input-xlarge search-query" type="text">
+                        <input name="label" value="Search UBC" type="hidden">
+                        <input name="site" value="*.ubc.ca" type="hidden">
+                        <button type="submit" class="btn">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div id="ubc7-global-header" class="expand"><div class="row-fluid"><div class="span8 offset2"><ul class="reverse"><li><a href="https://cdn.ubc.ca/clf/ref/website-directories">A - Z Websites</a></li><li><a href="https://cdn.ubc.ca/clf/ref/calendar">Academic Calendar</a></li><li><a href="https://cdn.ubc.ca/clf/ref/campus-services">Campus Services</a></li><li><a href="https://cdn.ubc.ca/clf/ref/faculties">Faculties &amp; Schools</a></li><li><a href="https://cdn.ubc.ca/clf/ref/maps">Maps</a></li><li><a href="https://cdn.ubc.ca/clf/ref/myubc">myUBC</a></li><li><a href="https://cdn.ubc.ca/clf/ref/ssc">Student Service Centre</a></li><li><a href="https://cdn.ubc.ca/clf/ref/directories">UBC Directory</a></li><li class="ubc7-right"><a id="ubc7-ql-apom" href="https://cdn.ubc.ca/clf/ref/apom"><span></span>a place of mind</a></li><li class="ubc7-right"><a id="ubc7-ql-mobile" href="https://cdn.ubc.ca/clf/ref/mobile"><span></span>UBC Mobile</a></li></ul></div></div></div>
+        </div>
+        <!-- End of UBC Global Utility Menu -->
+        <!-- UBC Header -->
+        <header id="ubc7-header" class="row-fluid expand" role="banner">
+            <div class="span1">
+                <div id="ubc7-logo">
+                    <a href="https://www.ubc.ca/" title="The University of British Columbia (UBC)">The University of British Columbia</a>
+                </div>
+            </div>
+            <div class="span2">
+                <div id="ubc7-apom">
+                    <a href="https://www.aplaceofmind.ubc.ca/" title="UBC a place of mind">UBC - A Place of Mind</a>
+                </div>
+            </div>
+            <div class="span9" id="ubc7-wordmark-block">
+                <div id="ubc7-wordmark">
+                    <a href="https://www.ubc.ca/" title="The University of British Columbia (UBC)">The University of British Columbia</a>
+                    <span class="ubc7-campus" id="ubc7-vancouver-campus">Vancouver campus</span>
+                </div>
+                <div id="ubc7-global-utility">
+                    <button type="button" data-toggle="collapse" data-target="#ubc7-global-menu"><span>UBC Search</span></button>
+                    <noscript><a id="ubc7-global-utility-no-script" href="https://www.ubc.ca/" title="UBC Search">UBC Search</a></noscript>
+                </div>
+            </div>
+        </header>
+        <!-- End of UBC Header -->
+        <!-- UBC Unit Identifier -->
+        <div style="" id="ubc7-unit" class="row-fluid expand">
+            <div class="span12">
+                <!-- Mobile Menu Icon -->
+                <div class="navbar">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target="#ubc7-unit-navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                </div>
+                <!-- Read more about Unit Name Treatment on https://brand.ubc.ca/clf -->
+                <!-- No Faculty Treatment --><!--<div id="ubc7-unit-name" class="ubc7-single-element"> -->
+                <div id="ubc7-unit-name">
+                    <a href="https://cs.ubc.ca/" title="Unit Name"><span id="ubc7-unit-faculty">Computer Science</a></span><a href="https://www.cs.ubc.ca/cs-research/lci/research-groups/intelligent-user-interfaces" <span id="ubc7-unit-identifier">Human-AI Interaction Research at UBC</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- End of UBC Unit Identifier -->
+        <!-- UBC Unit Navigation -->
+        <div id="ubc7-unit-menu" class="navbar expand" role="navigation">
+            <div class="navbar-inner expand">
+                <div class="container">
+                    <div class="nav-collapse collapse" id="ubc7-unit-navigation">
+                        <ul class="nav">
+                            <li><a href="index.html" title="Home">Home</a></li>
+                            <li><a href="People.html" title="People">People</a></li>
+                            <!--<li><a href="Research.html" title="Research">Research</a></li>-->
+                            <li><a href="Publication.html" title="Publications">Publications</a></li>
+                            <li class="active"><a href="Software.html" title="Software">Software / Material</a></li>
+							<li><a href="Reading_group.html" title="Reading group">Reading group</a></li>
+							<li><a href="Contact.html" title="Contact">Contact</a></li>
+                        </ul>
+                    </div><!-- /.nav-collapse -->
+                </div>
+            </div><!-- /navbar-inner -->
+        </div><!-- /navbar -->
+        <!-- End of UBC Unit Navigation -->
+        <!-- UBC Unit Breadcrumbs -->
+        <ul class="breadcrumb expand">
+            <li>
+                <a href="https://cs.ubc.ca/" title="Computer Science">UBC CS</a> <span class="divider">/</span>
+            </li>
+			<li>
+                <a href="https://www.cs.ubc.ca/cs-research/" title="Research">Research</a> <span class="divider">/</span>
+            </li>
+            <li>
+                <a href="https://www.cs.ubc.ca/cs-research/lci/" title="Artificial Intelligence">Artificial Intelligence</a> <span class="divider">/</span>
+            </li>
+			<li>
+                <a href="https://www.cs.ubc.ca/cs-research/lci/research-groups" title="Research Groups">Research Groups</a> <span class="divider">/</span>
+            </li>
+            <li class="active">Human-AI Interaction Research</li>
+        </ul>
+        <!-- End of UBC Unit Breadcrumbs -->
+        <!-- Content Area -->
+        <div class="content expand" role="main">
+        	<div class="row-fluid expand">
+
+<div   width="900px">
+	<h1>User Characteristic Tests</h1>
+
+	<p>Here we will provide a description of the tests that we often use in our various studies to evaluate the impact of individual differences on HCI tasks.</p>
+
+	<table border=1>
+        </tr><th>User Characteristic</th><th>Definition, Reference</th><th>Test Source</th><th>Test Duration</th><th>Impact on visualization processing (our work)</th> <th>Impact on XAI</th><th>Prediction from gaze + interaction data (our work)</th></tr>
+        
+        <tr>
+          <td><strong>Perceptual Speed</strong><br/>(Identical Pictures Test)</td>
+          <td>Speed in comparing figures or symbols, scanning to find figures or symbols, or carrying out other very simple tasks involving visual perception. <br /><br />
+                Ekstrom, R.B. et al. 1976. Manual for kit of factor referenced cognitive tests. Educational Testing Service Princeton, NJ.</td>
+          <td style="text-align:center">Download the <a href="https://www.cs.ubc.ca/~dtoker/phd/Perceptual Speed Test - P-3.pdf">Paper Test</a>. There is no online version of this test.</td>
+		  <td style="text-align:center">1.5 min</td>
+          <td style="text-align:center">[<a href="#ref2">2</a>, <a href="#ref4">4</a>, <a href="#ref7">7</a>, <br /><a href="#ref8">8</a>, <a href="#ref9">9</a>, <a href="#ref10">10</a>, <br /><a href="#ref12">12</a>, <a href="#ref13">13</a>, <a href="#ref13">14</a>]</td>
+          <td style="text-align:center">[<a href="#ref18">18</a>]</td>
+          <td style="text-align:center">[<a href="#ref1">1</a>, <a href="#ref5">5</a>, <a href="#ref6">6</a>, <a href="#ref11">11</a>]</td>
+        </tr>
+		<tr>
+          <td><strong>Visual Working Memory</strong><br/></td>
+          <td>Measures the quantity of visual information (e.g., shapes and colours) that can be temporarily maintained and manipulated in working memory. <br /><br />
+              Vogel, E.K., Woodman, G.F., and Luck, S.J. 2001. Storage of features, conjunctions, and objects in visual working memory. J. Exp. Psychol. Hum. Percept. Perform. 27, 1, 92–114.</td>
+          <td style="text-align:center">Download a folder with the <a href="https://www.cs.ubc.ca/~dtoker/phd/VisualWorkingMemoryTest.zip">Matlab Test</a>. Follow instructions from the readme.txt file. You will need Matlab to run this test.</td>
+		  <td style="text-align:center">6 mins</td>
+          <td style="text-align:center">[<a href="#ref2">2</a>, <a href="#ref4">4</a>, <a href="#ref7">7</a>, <br /><a href="#ref8">8</a>, <a href="#ref9">9</a>, <a href="#ref10">10</a>, <br /><a href="#ref12">12</a>, <a href="#ref13">13</a>]</td>
+          <td style="text-align:center">[<a href="#ref18">18</a>]</td>
+          <td style="text-align:center">[<a href="#ref1">1</a>, <a href="#ref5">5</a>, <a href="#ref6">6</a>, <a href="#ref11">11</a>]</td>
+        </tr>
+        <tr>
+            <td><strong>Visual Scanning</strong><br/></td>
+            <td>The speed in finding the shortest paths in a wide or complicated spatial field. Ekstrom, R.B. et al. 1976. Manual for kit of factor referenced cognitive tests. <br /><br /> Educational Testing Service Princeton, NJ. <br />
+                </td>
+            <td style="text-align:center">Download the <a href="https://www.cs.ubc.ca/group/iui/Kit_of_Factor-Referenced_Cognitive_Tests.260-262.pdf">Paper Test</a>. There is no online version of this test.</td>
+            <td style="text-align:center">8 mins</td>
+          <td style="text-align:center">[<a href="#ref2">2</a>]</td>
+          <td style="text-align:center">N/A</td>
+          <td style="text-align:center">[<a href="#ref1">1</a>]</td>
+		<tr>
+          <td><strong>Verbal Working Memory</strong><br/>(OSPAN)</td>
+          <td>Measures the quantity of verbal information (e.g., words) that can be temporarily maintained and manipulated in working memory. <br /><br />
+              Turner, M.L. and Engle, R.W. 1989. Is working memory capacity task dependent? Journal of Memory and Language. 28, 2, 127–154.</td>
+          <td style="text-align:center">Download a folder with the <a href="https://www.cs.ubc.ca/group/iui/VerbalWMTest.zip">source code </a> to run this test. Follow instructions from readme.doc file.</td>
+		  <td style="text-align:center">10 mins</td>
+          <td style="text-align:center">[<a href="#ref2">2</a>, <a href="#ref4">4</a>, <a href="#ref7">7</a>, <br /><a href="#ref8">8</a>, <a href="#ref9">9</a>, <a href="#ref10">10</a>, <br /><a href="#ref12">12</a>, <a href="#ref13">13</a>, <a href="#ref15">15</a>]</td>
+          <td style="text-align:center">N/A</td>
+          <td style="text-align:center">[<a href="#ref1">1</a>, <a href="#ref5">5</a>, <a href="#ref6">6</a>, <a href="#ref11">11</a> , <a href="#ref19">19</a>]</td>
+        </tr>
+		<tr>
+          <td><strong>Visualization Literacy</strong><br/></td>
+          <td>The ability to confidently use a given data visualization to translate questions specified in the data domain into visual queries in the visual domain, as well as interpreting visual patterns in the visual domain as properties in the data domain.<br /><br />
+              Boy, J. et al. 2014. A Principled Way of Assessing Visualization Literacy. IEEE Transactions on Visualization and Computer Graphics. 20, 12, 1963–1972.</td>
+          <td style="text-align:center">Try the <br />
+            <a href="https://www.cs.ubc.ca/group/iui/MMDTests/_02_calibrated_VL_tests/_03_BC/index.html">Online Test</a> <br /> 
+            or  download the<br /> <a href="https://www.cs.ubc.ca/group/iui/VL-Test.zip">source code </a> to run this test. Follow instructions from readme.txt file.</td>
+		  <td style="text-align:center">10 mins</td>
+          <td style="text-align:center">[<a href="#ref2">2</a>]</td>
+          <td style="text-align:center">N/A</td>
+          <td style="text-align:center">[<a href="#ref1">1</a>, <a href="#ref19">19</a>, <a href="#ref20">20</a>]</td>
+        </tr>
+		<tr>
+          <td><strong>Disembedding</strong><br/>(Hidden Patterns Test)</td>
+          <td>The ability to hold a given visual percept or configuration in mind so as to disembed it from other well defined perceptual material. <br /><br />
+              Ekstrom, R.B. et al. 1976. Manual for kit of factor referenced cognitive tests. Educational Testing Service Princeton, NJ.</td>
+          <td style="text-align:center">Download the <a href="https://www.cs.ubc.ca/~dtoker/phd/Ekstrom_CF2.pdf">Paper Test</a>. There is no online version of this test.</td>
+		  <td style="text-align:center">3 mins</td>
+          <td style="text-align:center">[<a href="#ref14">14</a>, <a href="#ref15">15</a>]</td>
+          <td style="text-align:center">N/A</td>
+          <td style="text-align:center">N/A</td>
+        </tr>
+		<tr>
+          <td><strong>Spatial Memory</strong><br/>(Shape Memory Test)</td>
+          <td>The ability to remember the configuration, location, and orientation of figural material (e.g., multiple objects on a map). <br /><br />
+              Ekstrom, R.B. et al. 1976. Manual for kit of factor referenced cognitive tests. Educational Testing Service Princeton, NJ.</td>
+          <td style="text-align:center">Download the <a href="https://www.cs.ubc.ca/~dtoker/phd/Ekstrom_MV1.pdf">Paper Test</a>. There is no online version of this test.</td>
+		  <td style="text-align:center">9 mins</td>
+          <td style="text-align:center">[<a href="#ref2">2</a>, <a href="#ref14">14</a>]</td>
+          <td style="text-align:center">N/A</td>
+          <td style="text-align:center">[<a href="#ref1">1</a>]</td>
+        </tr>
+		<tr>
+          <td><strong>Need for Cognition</strong><br/></td>
+          <td>Measures the extent to which individuals are inclined towards effortful cognitive activities. <br /><br />
+              Cacioppo, J.T. et al. 1984. The Efficient Assessment of Need for Cognition. Journal of Personality Assessment. 48, 3, 306–307.</td>
+          <td style="text-align:center">Try the <br />
+            <a href="https://www.cs.ubc.ca/group/iui/XAIITSTests/NC.php">Online Test</a><br /> 
+            or  download the <br /><a href="https://www.cs.ubc.ca/group/iui/Need for cognition.zip">source code </a>to run this test. Follow instructions from readme.txt file.<br /> </td>
+		  <td style="text-align:center">3 mins</td>
+          <td style="text-align:center">[<a href="#ref2">2</a>, <a href="#ref14">14</a>]</td>
+          <td style="text-align:center">[<a href="#ref16">16</a>] [<a href="#ref18">18</a>]</td>
+          <td style="text-align:center">N/A</td>
+        </tr>
+		<tr>
+          <td><strong>Locus of Control</strong><br/></td>
+          <td>Measure of the degree to which individuals perceive outcomes as either a result from their own behavior, or from forces that are external to themselves. <br /><br />
+              Rotter, Julian B. 1966. Generalized Expectancies for Internal Versus External Control of Reinforcement. Psych. Monographs: General and Applied 80.1, 1-28.</td>
+          <td style="text-align:center">Try the <br />
+            <a href="https://www.cs.ubc.ca/group/iui/XAIITSTests/LC.php">Online Test</a><br /> 
+            or  download the <br /> <a href="https://www.cs.ubc.ca/group/iui/Locus of Control.zip">source code </a>to run this test. Follow instructions from readme.txt file.<br /> </td>
+		  <td style="text-align:center">5 mins</td>
+          <td style="text-align:center">[<a href="#ref2">2</a>, <a href="#ref4">4</a>, <a href="#ref7">7</a>, <br /><a href="#ref9">9</a>, <a href="#ref10">10</a>]</td>
+          <td style="text-align:center">N/A</td>
+          <td style="text-align:center">[<a href="#ref5">5</a>]</td>
+		</tr>
+		<tr>
+          <td><strong>Big-Five Personality Traits</strong><br/>(TIPI)</td>
+          <td>Measures personality in terms of Agreeableness, Conscientiousness, Extraversion, Emotional Stability, and Openness. <br /><br />
+              Gosling, S. D., Rentfrow, P. J., and Swann, W. B., Jr. 2003. A Very Brief Measure of the Big Five Personality Domains. Journal of Research in Personality, 37, 504-528.</td>
+          <td style="text-align:center">Try the <br />
+            <a href="https://www.cs.ubc.ca/group/iui/XAIITSTests/TIPI.php">Online Test</a> <br /> 
+            or  download the <br /> <a href="https://www.cs.ubc.ca/group/iui/TIPI.zip">source code </a>to run this test. Follow instructions from readme.txt file.<br /> </td>
+		  <td style="text-align:center">1 min</td>
+          <td style="text-align:center">[<a href="#ref3">3</a>]</td>
+          <td style="text-align:center">[<a href="#ref17">17</a>] [<a href="#ref18">18</a>]</td>
+          <td style="text-align:center">N/A</td>
+		</tr>	
+		<tr>
+          <td><strong>Reading Proficiency</strong><br/>(X_Lex)</td>
+          <td>Measures vocabulary size and reading comprehension ability in English. <br /><br />
+              Paul Meara. 1992. EFL vocabulary tests, second edition 2010. Lognostics, Swansea: Wales.</td>
+          <td style="text-align:center">Download the <a href="https://www.cs.ubc.ca/~dtoker/phd/Meara_xlex_test.zip">Paper Test</a>.  There is no online version of this test.</td>
+		  <td style="text-align:center">5 min</td>
+          <td style="text-align:center">[<a href="#ref15">15</a>]</td>
+          <td style="text-align:center">[<a href="#ref18">18</a>]</td>
+          <td style="text-align:center">coming soon</td>
+		</tr>
+		<tr>
+          <td><strong>Verbal IQ</strong><br/>(NAART)</td>
+          <td>Overall verbal intellectual abilities that measures acquired knowledge, verbal reasoning, and attention to verbal materials.<br /><br />
+              Esther Strauss, Elisabeth M. S. Sherman, Otfried Spreen, and Otfried Spreen. 2006. A compendium of neuropsychological tests: administration, norms, and commentary. Oxford University Press, Oxford; New York.</td>
+          <td style="text-align:center">Download the <a href="https://www.cs.ubc.ca/~dtoker/phd/NAART_test.zip">Paper Test</a>.  There is no online version of this test.</td>
+		  <td style="text-align:center">5 min</td>
+          <td style="text-align:center">N/A</td>
+          <td style="text-align:center">N/A</td>
+          <td style="text-align:center">N/A</td>
+		</tr>		
+        <tr>
+            <td><strong>Five-Dimensional Curiosity Scale</strong><br/></td>
+            <td>Measures the five dimensions of curiosity i.e., joyous exploration, deprivation sensitivity, stress tolerance, social curiosity, and thrill seeking. 
+                <br /><br />
+                Kashdan, Todd B., Melissa C. Stiksma, David J. Disabato, Patrick E. McKnight, John Bekier, Joel Kaji, and Rachel Lazarus. "The five-dimensional curiosity scale: Capturing the bandwidth of curiosity and identifying four unique subgroups of curious people." Journal of Research in Personality 73 (2018): 130-149.</td>
+            <td style="text-align:center">Try the <br />
+                <a href="https://www.cs.ubc.ca/group/iui/XAIITSTests/5DC.php">Online Test</a><br /> 
+                or download the <br /> <a href="https://www.cs.ubc.ca/group/iui/5DC.zip">source code </a>to run this test. Follow instructions from readme.txt file.<br /> </td>
+            <td style="text-align:center">5 min</td>
+            <td style="text-align:center">N/A</td>
+            <td style="text-align:center">[<a href="#ref18">18</a>]</td>
+            <td style="text-align:center">N/A</td>
+          </tr>
+    </table>
+
+<h4>References</h4>
+<p>Only journal papers and strictly refereed conference papers published by our group are listed.</p>
+<ol>
+	<li style="margin: 3px 0" id="ref1" class="ancreref"><font face="Arial" size="2">Conati, C., Lallé, S., Rahman, M.A., and Toker, D. 2017. <strong>Further Results on Predicting Cognitive Abilities for Adaptive Visualizations</strong>. Proc. of the 26th International Joint Conference on Artificial Intelligence, AAAI, 1568-1574. </font><strong>[<a href="https://www.ijcai.org/proceedings/2017/0217.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref2" class="ancreref"><font face="Arial" size="2">Lallé, S., Conati, C., and Carenini, G. 2017. <strong>Impact of Individual Differences on User Experience with a Visualization Interface for Public Engagement</strong>. Proc. of the 2nd International Workshop on Human Aspects in Adaptive and Personalized Interactive Environments (in conjunction with UMAP 2017), ACM. </font><strong>[<a href="https://dl.acm.org/citation.cfm?id=3099055">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref3" class="ancreref"><font face="Arial" size="2">Lallé, S., Mudrick, N.V., Taub, M., Grafsgaard, J.F., Conati, C., and Azevedo, R. 2016. <strong>Impact of Individual Differences on Affective Reactions to Pedagogical Agents Scaffolding</strong>. Proc. of the 16th International Conference on Intelligent Virtual Agents, Springer, 269–282. </font><strong>[Best paper award - <a href="https://iva2016.ict.usc.edu/wp-content/uploads/Papers/100110262.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref4" class="ancreref"><font face="Arial" size="2">Conati, C., Carenini, G., Toker, D., and Lallé, S. 2015. <strong>Towards User-Adaptive Information Visualization</strong>. Proc. of the 29th AAAI Conference on Artificial Intelligence, AAAI Press, 4100–4106. </font> <strong>[<a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9933/9688">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref5" class="ancreref"><font face="Arial" size="2">Gingerich, M., and Conati, C. 2015. <strong>Constructing Models of User and Task Characteristics from Eye Gaze Data for User-Adaptive Information Highlighting</strong>. Proc. of the 29th AAAI Conference on Artificial Intelligence, AAAI Press, 1728–1734. </font><strong>[<a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9946">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref6" class="ancreref"><font face="Arial" size="2">Steichen, B., Conati, C., and Carenini, G. 2014. <strong>Inferring Visualization Task Properties, User Performance, and User Cognitive Abilities from Eye Gaze Data</strong>. ACM Transactions on Interactive Intelligent Systems 4, 2, Article 11. </font><strong>[ACM TiiS Best Paper Award, <a href="https://dl.acm.org/citation.cfm?id=2633043">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref7" class="ancreref"><font face="Arial" size="2">Conati, C., Carenini, G., Steichen, B., and Toker, D. 2014. <strong>Evaluating the Impact of User Characteristics and Different Layouts on an Interactive Visualization for Decision Making</strong>. Computer Graphics Forum (EuroVis 2014) 33, 3, 371–380. </font><strong>[<a href="https://www.cs.ubc.ca/~dtoker/publications/EuroVis14-CameraReady.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref8" class="ancreref"><font face="Arial" size="2">Steichen, B., Michael M.A. Wu, Toker, D., Conati, C., and Carenini, G. 2014. <strong>Te,Te,Hi,Hi: Eye Gaze Sequence Analysis for Informing User-Adaptive Information Visualizations</strong>. Proc. of the 22nd International Conference on User Modeling, Adaptation, and Personalization, Springer, 183-194. </font><strong>[Best paper award, <a href="https://www.cs.ubc.ca/~dtoker/publications/steichen_umap2014.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref9" class="ancreref"><font face="Arial" size="2">Carenini, G., Conati, C., Hoque, E., Steichen, B., Toker, D., and Enns, J.T. 2014. <strong>Highlighting Interventions and User Differences: Informing Adaptive Information Visualization Support</strong>. Proc. of the SIGCHI Conference on Human Factors in Computing Systems, ACM, 1835–1844. </font> <strong>[<a href="https://www.cs.ubc.ca/~dtoker/publications/CHI2014-carenini.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref10" class="ancreref"><font face="Arial" size="2">Toker, D., and Conati, C. 2014. <strong>Eye Tracking to Understand User Differences in Visualization Processing with Highlighting Interventions</strong>. Proc. of the 22nd International Conference on User Modeling, Adaptation, and Personalization, Springer, 219–230. </font><strong>[<a href="https://www.cs.ubc.ca/~dtoker/publications/toker_umap2014.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref11" class="ancreref"><font face="Arial" size="2">Steichen, B., Carenini, G., and Conati, C. 2013. <strong>User-adaptive Information Visualization: Using Eye Gaze Data to Infer Visualization Tasks and User Cognitive Abilities</strong>. Proc. of the 18th International Conference on Intelligent User Interfaces, ACM, 317–328. </font><strong>[Best Paper nominee, <a href="www.cs.ubc.ca/~conati/my-papers/IUI2013.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref12" class="ancreref"><font face="Arial" size="2">Toker, D., Conati, C., Steichen, B., and Carenini, G. 2013. <strong>Individual User Characteristics and Information Visualization: Connecting the Dots Through Eye Tracking</strong>. Proc. of the SIGCHI Conference on Human Factors in Computing Systems, ACM, 295–304. </font><strong>[<a href="https://www.cs.ubc.ca/~dtoker/publications/iui0226-toker.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref13" class="ancreref"><font face="Arial" size="2">Toker, D., Conati, C., Carenini, G., and Haraty, M. 2012. <strong>Towards Adaptive Information Visualization: On the Influence of User Characteristics</strong>. Proc. of the 20th International Conference on User Modeling, Adaptation, and Personalization, Springer, 274–285. </font><strong>[<a href="https://www.cs.ubc.ca/~dtoker/publications/toker_umap2012.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref14" class="ancreref"><font face="Arial" size="2">Conati, C., and Maclaren, H. 2008. <strong>Exploring the Role of Individual Differences in Information Visualization</strong>. Proc. of the Working Conference on Advanced Visual Interfaces, ACM, 199–206. </font> <strong>[<a href="https://www.cs.ubc.ca/~conati/my-papers/AVI-2008-cameraWithInteraction.pdf">link</a>]</strong></li>
+	<li style="margin: 3px 0" id="ref15" class="ancreref"><font face="Arial" size="2">Toker, D., Conati, C., Carenini, G. 2018. <strong>User-adaptive Support for Processing Magazine Style Narrative Visualizations: Identifying User Characteristics that Matter</strong>. Proc. of the 23rd International Conference on Intelligent User Interfaces, ACM, (to appear). </font><strong>[<a href="https://iui.acm.org/2018/program.html">link</a>]</strong></li>
+    <li style="margin: 3px 0" id="ref16" class="ancreref"><font face="Arial" size="2">Millecamp, M., Htun, N.N., Conati, C. and Verbert, K. 2019. <strong>To explain or not to explain: the effects of personal characteristics when explaining music recommendations</strong>. Proceedings of the 24th International Conference on Intelligent User Interfaces, 397-407. </font><strong>[<a href="https://dl.acm.org/doi/abs/10.1145/3301275.3302313">link</a>]</strong></li>
+    <li style="margin: 3px 0" id="ref17" class="ancreref"><font face="Arial" size="2">Kouki, P., Schaffer, J., Pujara, J., O'Donovan, J. and Getoor, L. 2019. <strong>Personalized explanations for hybrid recommender systems</strong>. Proceedings of the 24th International Conference on Intelligent User Interfaces, 379-390. </font><strong>[<a href="https://dl.acm.org/doi/abs/10.1145/3301275.3302306">link</a>]</strong></li>
+    <li style="margin: 3px 0" id="ref18" class="ancreref"><font face="Arial" size="2">Conati, C., Barral, O., Putnam, V. and Rieger, L. 2021. <strong>Toward personalized XAI: A case study in intelligent tutoring systems</strong>. Artificial intelligence, 298, p.103503. </font><strong>[<a href="https://www.sciencedirect.com/science/article/pii/S0004370221000540?casa_token=tuw2-oT6MBwAAAAA:pT3k53LtFNYtWQOzzdPFQw5chjfbcHuYoSsW28JP4ndwEFAsKIoGfbxVvkM_YMIev3XZjt7z_3I">link</a>]</strong></li>
+    <li style="margin: 3px 0" id="ref19" class="ancreref"><font face="Arial" size="2">Barral, B., Lallé, S., Guz, G., Iranpur, A., and Conati, C. 2020. <strong>Eye-Tracking to Predict User Cognitive Abilities and Performance for User-Adaptive Narrative Visualizations</strong>. In Proceedings of the 22nd International Conference on Multimodal Interaction, 298, pp. 163–173, ACM. </font><strong>[<a href="https://dl.acm.org/doi/10.1145/3382507.3418884">link</a>]</strong></li>
+    <li style="margin: 3px 0" id="ref20" class="ancreref"><font face="Arial" size="2">Lallé, S., Toker, D., and Conati, C. 2021. <strong>Gaze-Driven Adaptive Interventions for Magazine-Style Narrative Visualizations</strong>. IEEE Transactions on Visualization and Computer Graphics, 27, p.2941-2952. </font><strong>[<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8930077">link</a>]</strong></li>
+</ol>
+
+
+
+</div>
+	<div class="span3">
+
+    </div>
+</div>
+</div>
+        <!-- End of Content Area -->
+        <!-- Footer Area Unit Menu - Mobile Only -->
+        <div id="ubc7-unit-alternate-navigation" class="navbar expand visible-phone" role="navigation">
+            <div class="navbar-inner expand">
+                <div class="container">
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="#" title="Home">Home</a></li>
+                            <li><a href="#" title="First Link">First Link</a></li>
+                            <li><a href="#" title="Second Link">Second Link</a></li>
+                            <li><a href="#" title="Third Link">Third Link</a></li>
+                            <li class="dropdown">
+                                <div class="btn-group">
+                                    <a class="btn" href="#">Split dropdown</a>
+                                    <button class="btn dropdown-toggle" data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" title="Action">Action</a></li>
+                                        <li><a href="#" title="Another Action">Another action</a></li>
+                                        <li><a href="#" title="Something else">Something else</a></li>
+                                        <li class="nav-header">Navigation header</li>
+                                        <li><a href="#" title="Separated link">Separated link</a></li>
+                                        <li><a href="#" title="One more">One more separated link</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basic dropdown <div class="ubc7-arrow down-arrow"></div></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" title="Action">Action</a></li>
+                                    <li><a href="#" title="Another Action">Another action</a></li>
+                                    <li><a href="#" title="Something else">Something else</a></li>
+                                    <li class="nav-header">Navigation header</li>
+                                    <li><a href="#" title="Separated link">Separated link</a></li>
+                                    <li><a href="#" title="One more">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.nav-collapse -->
+                </div>
+            </div><!-- /navbar-inner -->
+        </div><!-- /navbar -->
+        <!-- End of Footer Area Unit Menu -->
+        <footer id="ubc7-footer" class="expand" role="contentinfo">
+            <div class="row-fluid expand" id="ubc7-unit-footer">
+                <div class="span10" id="ubc7-unit-address">
+                    <div id="ubc7-address-unit-name">Room X460, Department of Computer Science</div>
+                    <div id="ubc7-address-street">201-2366 Main Mall</div>
+
+                    <div id="ubc7-address-location">
+                        <span id="ubc7-address-city">Vancouver</span>, <span id="ubc7-address-province" title="British Columbia">BC</span> <span id="ubc7-address-country">Canada</span> <span id="ubc7-address-postal">V6T 1Z4</span>
+                    </div>
+                    <!--<div id="ubc7-address-email">E-mail lci-summ at ubc dot ca</div>-->
+                </div>
+                <div class="span2">
+                    <strong>Find us on</strong>
+                    <div id="ubc7-unit-social-icons">
+                        <!--<a href="#"><i class="icon-facebook-sign"></i></a>&nbsp;-->
+                        <a href="https://twitter.com/IUIGroupUBC"><i class="icon-twitter-sign"></i></a>&nbsp;
+                        <!--<a href="#"><i class="icon-youtube"></i></a><br>-->
+                        <!--<a href="#"><i class="icon-google-plus-sign"></i></a>&nbsp;-->
+                       <!-- <a href="#"><i class="icon-vimeo"></i></a>
+                        <a href="#"><i class="icon-skype"></i></a>&nbsp;
+                        <a href="#"><i class="icon-wordpress"></i></a>&nbsp;
+                        <a href="#"><i class="icon-flickr"></i></a>-->
+
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid expand ubc7-back-to-top">
+                <div class="span2">
+                    <a href="#" title="Back to top">Back to top <div class="ubc7-arrow up-arrow grey"></div></a>
+                </div>
+            </div>
+            <div class="row-fluid expand" id="ubc7-global-footer">
+                <div class="span5" id="ubc7-signature"><a href="https://www.ubc.ca/" title="The University of British Columbia (UBC)">The University of British Columbia</a></div>
+                <div class="span7" id="ubc7-footer-menu"><div class="row-fluid"><div class="span6"><h3>About UBC</h3><div><a href="https://cdn.ubc.ca/clf/ref/contact">Contact UBC</a></div><div><a href="https://cdn.ubc.ca/clf/ref/about">About the University</a></div><div><a href="https://cdn.ubc.ca/clf/ref/news">News</a></div><div><a href="https://cdn.ubc.ca/clf/ref/events">Events</a></div><div><a href="https://cdn.ubc.ca/clf/ref/careers">Careers</a></div><div><a href="https://cdn.ubc.ca/clf/ref/gift">Make a Gift</a></div><div><a href="https://cdn.ubc.ca/clf/ref/search">Search UBC.ca</a></div></div><div class="span6"><h3>UBC Campuses</h3><div><a href="https://cdn.ubc.ca/clf/ref/vancouver">Vancouver Campus</a></div><div><a href="https://cdn.ubc.ca/clf/ref/okanagan">Okanagan Campus</a></div><h4>UBC Sites</h4><div><a href="https://cdn.ubc.ca/clf/ref/robson">Robson Square</a></div><div><a href="https://cdn.ubc.ca/clf/ref/great-northern-way">Great Northern Way</a></div><div><a href="https://cdn.ubc.ca/clf/ref/medicine">Faculty of Medicine Across BC</a></div><div><a href="https://cdn.ubc.ca/clf/ref/asia">Asia Pacific Regional Office</a></div></div></div></div>
+            </div>
+            <div class="row-fluid expand" id="ubc7-minimal-footer">
+                <div class="span12">
+                    <ul>
+                        <li><a href="https://cdn.ubc.ca/clf/ref/emergency" title="Emergency Procedures">Emergency Procedures</a> <span class="divider">|</span></li>
+                        <li><a href="https://cdn.ubc.ca/clf/ref/terms" title="Terms of Use">Terms of Use</a> <span class="divider">|</span></li>
+                        <li><a href="https://cdn.ubc.ca/clf/ref/copyright" title="UBC Copyright">Copyright</a> <span class="divider">|</span></li>
+                        <li><a href="https://cdn.ubc.ca/clf/ref/accessibility" title="Accessibility">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- /container -->
+    <!-- Placed javascript at the end for faster loading -->
+    <script src="jquery.js"></script>
+    <script src="ubc-clf.js"></script>
+
+</body></html>
