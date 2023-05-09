@@ -617,7 +617,7 @@ const renderList = (data, listname) => {
     divChild.dataset.year = elt.year;
     divChild.dataset.title = elt.title;
     divChild.dataset.authors = elt.authors;
-    //divChild.dataset.keywords = elt.keywords;
+    divChild.dataset.keywords = elt.keywords;
     //divChild.dataset.bestpaper = elt.bestpaper;
     divChild.innerText = elt.title;
     divChild.active = elt.active;
@@ -625,10 +625,10 @@ const renderList = (data, listname) => {
 
     // creating h5 element
     // TODO: remove keywords from here and add whatever we need
-    //const h5Child = document.createElement("h5");
-    //h5Child.style.color = "black";
+    const h5Child = document.createElement("h5");
+    h5Child.style.color = "black";
     //h5Child.style.backgroundColor = "tomato"
-    //h5Child.innerText = elt.keywords;
+    h5Child.innerText = elt.keywords;
    
    
     divChild.append(h5Child);
