@@ -110,7 +110,7 @@ const data21 = [
     year: 2021,
     title: "Gaze-Driven Adaptive Interventions for Magazine-Style Narrative Visualizations. 	Sébastien Lallé, Dereck Toker, Cristina Conati. IEEE Trans. Vis. Comput. Graph. 27(6): 2941-2952 (2021).",
     authors: "",
-    keywords: ["Visualization", "Interactive Simulation"],
+    keywords: ["Visualization"],
     active: "yes",
   },
   {
@@ -617,7 +617,7 @@ const renderList = (data, listname) => {
     divChild.dataset.year = elt.year;
     divChild.dataset.title = elt.title;
     divChild.dataset.authors = elt.authors;
-    divChild.dataset.keywords = elt.keywords;
+    //divChild.dataset.keywords = elt.keywords;
     //divChild.dataset.bestpaper = elt.bestpaper;
     divChild.innerText = elt.title;
     divChild.active = elt.active;
