@@ -4,13 +4,13 @@ const data23=[
  {
     year: 2023,
     title: "Classification of Alzheimer's using deep-learning methods on webcam-based gaze data. Anuj Harisinghani, Harshinee Sriram, Cristina Conati, Giuseppe Carenini, Hyeju Jang, Thalia Field, Gabriel Murray. ACM Symposium on Eye Tracking Research & Applications (ETRA) 2023.",
-    authors: "",
+    authors: "abc",
     keywords: ["Alzheimer", "Eye tracking"],
     active: "yes",
   },
  {
     year: 2023,
-    title: "Predicting Co-occurring Emotions in MetaTutor when Combining Eye-Tracking and Interaction Data from Separate User Studies. LAK23: 13th International Learning Analytics and Knowledge Conference. Rohit Murali, Cristina Conati, Roger Azevedo.",
+    title: "Predicting Co-occurring Emotions in MetaTutor when Combining Eye-Tracking and Interaction Data from Separate User Studies.  Rohit Murali, Cristina Conati, Roger Azevedo. LAK23: 13th International Learning Analytics and Knowledge Conference.",
     authors: "",
     keywords: ["Eye tracking", "User affect"],
     active: "yes",
@@ -597,7 +597,7 @@ const renderList = (data, listname) => {
   const pubList = document.getElementById(listname);
   year = listname.substring(8, 10);
   if (data.length != 0) {
-    document.getElementById(year).innerHTML = "20".concat(year);
+    //document.getElementById(year).innerHTML = "20".concat(year);
   }
   else
   {
@@ -625,13 +625,12 @@ const renderList = (data, listname) => {
 
     // creating h5 element
     // TODO: remove keywords from here and add whatever we need
-    const h5Child = document.createElement("h5");
-    h5Child.style.color = "black";
+    //const h5Child = document.createElement("h5");
+    //h5Child.style.color = "black";
     //h5Child.style.backgroundColor = "tomato"
-    h5Child.innerText = elt.keywords;
-   
-   
-    divChild.append(h5Child);
+    //h5Child.innerText = elt.authors;
+    //divChild.append(h5Child);
+
     if (elt.bestpaper=="yes"){
       divChild.append(award);
     }
@@ -640,8 +639,10 @@ const renderList = (data, listname) => {
 
     // adding div to li element
     newChild.append(divChild);
+    
     // append element to publications list
     pubList.append(newChild);
+    pubList.append(newLine);
   });
 };
 
