@@ -6,16 +6,18 @@ const data23=[
     title: "Classification of Alzheimer's using deep-learning methods on webcam-based gaze data.",
     authors: "A. Harisinghani, H. Sriram, C. Conati, et. al.",
     venue: "ACM Symposium on Eye Tracking Research & Applications (ETRA) 2023",
-    keywords: ["Alzheimer", "Eye tracking"],
+    keywords: ["Eye tracking (Alzheimer)", "Eye tracking (All)"],
     active: "yes",
+    link: "https://open.library.ubc.ca/media/download/pdf/24/1.0427394/3",
   },
  {
     year: 2023,
-    title: "Predicting Co-occurring Emotions in MetaTutor when Combining Eye-Tracking and Interaction Data from Separate User Studies. LAK23: 13th International Learning Analytics and Knowledge Conference.",
+    title: "Predicting Co-occurring Emotions in MetaTutor when Combining Eye-Tracking and Interaction Data from Separate User Studies.",
     authors: "R. Murali, C. Conati, R. Azevedo",
     venue: "LAK23: 13th International Learning Analytics and Knowledge Conference 2023",
-    keywords: ["Eye tracking", "User affect"],
+    keywords: ["Eye tracking (All)", "User affect"],
     active: "yes",
+    link: "https://dl.acm.org/doi/abs/10.1145/3576050.3576108",
   },
  {
     year: 2023,
@@ -24,6 +26,16 @@ const data23=[
     venue: "ACM Transactions on Interactive Intelligent Systems 2023",
     keywords: ["CT", "ITS"],
     active: "yes",
+    link: "https://dl.acm.org/doi/10.1145/3578523",
+  },
+  {
+    year: 2023,
+    title: "Cascading Convolutional Temporal Colour Constancy.",
+    authors: "M. Rizzo, C. Conati, D. Jang, H. Hu",
+    venue: "Journal of Electronic Imaging, Vol. 32, Issue 1, 013049 February 2023",
+    keywords: [""],
+    active: "yes",
+    link: "https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-32/issue-1/013049/Cascading-convolutional-temporal-color-constancy/10.1117/1.JEI.32.1.013049.full"
   },
 ];
 
@@ -33,24 +45,27 @@ const data22 = [
     title: "Explainable Artificial Intelligence in education.",
     authors: "H. Khosravi, S. Buckingham Shum, G. Chen, C. Conati, et. al.",
     venue: "Comput. Educ. Artif. Intell. 3: 100074 2022",
-    keywords: ["XAI"],
+    keywords: ["Explainable AI (All)"],
     active: "yes",
+    link: "https://www.sciencedirect.com/science/article/pii/S2666920X22000297",
   },
   {
     year: 2022,
     title: "Classification of Alzheimers Disease Leveraging Multi-Task Machine Learning Analysis of Speech and Eye-Movement Data.",
     authors: "H. Jang, T. Soroski, M. Rizzo, O. Barral, A. Harisinghani, C. Conati, et. al.",
     venue: "Frontiers in Human Neuroscience 2022",
-    keywords: ["Eye tracking", "Alzheimer"],
+    keywords: ["Eye tracking (All)", "Eye tracking (Alzheimer)"],
     active: "yes",
+    link: "https://www.frontiersin.org/articles/10.3389/fnhum.2021.716670/full",
   },
   {
     year: 2022,
     title: "Knowing me, knowing you: Personalized explanations for a music recommender system.",
     authors: "M. Millecamp, C. Conati, K. Verbert",
     venue: "Journal of User Modeling, Adaptation and Personalization 2022",
-    keywords: ["Music Recommender", "XAI"],
+    keywords: ["Explainable AI (Music)", "Explainable AI (All)"],
     active: "yes",
+    link: "https://link.springer.com/article/10.1007/s11257-021-09304-9",
   },
   {
     year: 2022,
@@ -59,6 +74,7 @@ const data22 = [
     venue: "ACM Transaction on Intelligent Interactive Systems 2022",
     keywords: ["Visualization", "User adaptive"],
     active: "yes",
+    link: "https://dl.acm.org/doi/abs/10.1145/3447992?casa_token=UqBNBN73pmMAAAAA:rJNJbds3RwlVHoKaGmGKp9OafJfatCB25tkpoOHzPx-afYelckZgiyDCevidbraWYoDmtEoaSmRqVw",
   },
 {
     year: 2022,
@@ -67,23 +83,16 @@ const data22 = [
     venue: "27th International Conference on Intelligent User Interfaces 2022",
     keywords: ["CT", "ITS"],
     active: "yes",
+    link: "https://dl.acm.org/doi/abs/10.1145/3490099.3511124"
   },
- {
-    year: 2022,
-    title: "Evaluating the Faithfulness of Saliency-based Explanations for Deep Learning Models for Temporal Colour Constancy.",
-    authors: "M. Rizzo, C. Conati, D. Jang, H. Hu",
-    venue: "CoRR abs/2211.07982 (2022)",
-    keywords: ["XAI"],
-    active: "yes",
-  },
- {
+ /* {
     year: 2022,
     title: "A Theoretical Framework for AI Models Explainability.",
     authors: "M. Rizzo, A. Veneri, A. Albarelli, C. Lucchese, C. Conati",
     venue: "27th International Conference on Intelligent User Interfaces 2022",
-    keywords: ["XAI"],
+    keywords: ["Explainable AI (All)"],
     active: "yes",
-  }
+  } */
 ];
 
 
@@ -93,16 +102,18 @@ const data21 = [
     title: "Toward personalized XAI: A case study in intelligent tutoring systems.",
     authors: "C. Conati, O. Barral, V. Putnam, L. Rieger",
     venue: "Artificial Intelligence 298, 103503 2021", 
-    keywords: ["XAI ITS", "XAI"],
+    keywords: ["Explainable AI (ITS)", "Explainable AI (All)"],
     active: "yes",
+    link: "https://www.sciencedirect.com/science/article/pii/S0004370221000540",
   },
   {
     year: 2021,
     title: "Predicting Co-Occurring Emotions from Eye-Tracking and Interaction Data in MetaTutor.",
     authors: "S. Lallé, R. Murali, C. Conati, R. Azevedo",
     venue: "Proceedings of AIED 2021, the 22st International Conference on Artificial Intelligence in Education, 24% AR, 2021",
-    keywords: ["Eye tracking", "User affect"],
+    keywords: ["Eye tracking (All)", "User affect"],
     active: "yes",
+    link: "https://link.springer.com/chapter/10.1007/978-3-030-78292-4_20",
   },
   {
     year: 2021,
@@ -111,6 +122,7 @@ const data21 = [
     venue: "Proceedings of the International conference on Learning Analytics and Knowledge, LAK 2021.",
     keywords: ["CT"],
     active: "yes",
+    link: "https://dl.acm.org/doi/10.1145/3448139.3448175",
   },
   {
     year: 2021,
@@ -119,6 +131,7 @@ const data21 = [
     venue: "ACM Transactions on Interactive Intelligent Systems (TiiS) 11 (3-4), 1-46 2021",
     keywords: ["Visualization"],
     active: "yes",
+    link: "https://dl.acm.org/doi/abs/10.1145/3447992?casa_token=TgATP2NaEeIAAAAA:Q9fqwC4uj0kjBq3Ecrv5ew-pKdawcUF8MYP6_VBFG0ScloJtPUK4GEnFDwbvPjBx9l_E9ojb7lmKVg",
   },
  {
     year: 2021,
@@ -127,30 +140,16 @@ const data21 = [
     venue: "IEEE Transactions on Visualization and Computer Graphics 27 (6), 2941-2952 2021",
     keywords: ["Visualization"],
     active: "yes",
+    link: "https://ieeexplore.ieee.org/abstract/document/8930077"
   },
   {
     year: 2021,
     title: "Classifeye: Classification of Personal Characteristics Based on Eye Tracking Data in a Recommender System Interface.",
     authors: "M. Millecamp, C. Conati, K. Verbert",
     venue: "IUI Workshops 2021",
-    keywords: ["Eye tracking", "User properties"],
+    keywords: ["Eye tracking (All)", "User properties"],
     active: "yes",
-  },
- {
-    year: 2021,
-    title: "A Framework to Counteract Suboptimal User-Behaviors in Exploratory Learning Environments: an Application to MOOCs.",
-    authors: "S. Lallé, C. Conati",
-    venue: "CoRR abs/2106.07555 (2021)",
-    keywords: ["ITS", "User properties", "MOOC"],
-    active: "yes",
-  },
-  {
-    year: 2021,
-    title: "Cascading Convolutional Temporal Colour Constancy.",
-    authors: "M. Rizzo, C. Conati, D. Jang, H. Hu",
-    venue: "CoRR abs/2106.07955 (2021)",
-    keywords: [""],
-    active: "yes",
+    link: "http://ceur-ws.org/Vol-2903/IUI21WS-HUMANIZE-4.pdf",
   },
 ];
 
@@ -168,7 +167,7 @@ const data20 = [
     title: "Eye-Tracking to Predict User Cognitive Abilities and Performance for User-Adaptive Narrative Visualizations.",
     authors: "S. Lallé, O. Barral, G. Guz, A. Iranpur, C. Conati",
     venue: "Proceedings of the 22nd International Conference on Multimodal Interaction, ACM. 2022",
-    keywords: ["Eye tracking", "Cognitive abilities"],
+    keywords: ["Eye tracking (All)", "Cognitive abilities"],
     active: "yes",
   },
   {
@@ -176,7 +175,7 @@ const data20 = [
     title: "A Neural Architecture for Detecting Confusion in Eye-tracking Data.",
     authors: "S. Sims, C. Conati",
     venue: "Proceedings of the 22nd International Conference on Multimodal Interaction, ACM. 2020",
-    keywords: ["Eye tracking", "User affect"],
+    keywords: ["Eye tracking (All)", "User affect"],
     active: "yes",
   },
   {
@@ -184,7 +183,7 @@ const data20 = [
     title: " What's in a User? Towards Personalising Transparency For Music Recommender Interfaces.",
     authors: "M. Millecamp, N. Htun, C. Conati, K. Verbert",
     venue: "Proceedings of UMAP 2020, the 28th International Conference on User Modeling, Adaptation and Personalization, 2020",
-    keywords: ["Music Recommender", "XAI"],
+    keywords: ["Explainable AI (Music)", "Explainable AI (All)"],
     active: "yes",
   },
   {
@@ -192,7 +191,7 @@ const data20 = [
     title: "Comparing and Combining Interaction and Eye Tracking Data for the Real-Time Prediction of User Cognitive Abilities in Visualization Tasks.",
     authors: "C. Conati, S. Lallé, A. Rhaman, D. Toker",
     venue: "ACM Transactions on Intelligent Interactive Systems 10(2), 1-41. 2020",
-    keywords: ["Visualizations", "Cognitive abilities", "Eye tracking", "User properties"],
+    keywords: ["Visualizations", "Cognitive abilities", "Eye tracking (All)", "User properties"],
     active: "yes",
   },
   {
@@ -200,12 +199,12 @@ const data20 = [
     title: "Non-invasive Classification of Alzheimer's Disease Using Eye Tracking and Language.",
     authors: "H. Jang, O. Barral, G. Carenini, C. Conati et. al.",
     venue: "Proceedings of MLHC 2020, Conference on Machine Learning for Healthcare. 2020",
-    keywords: ["Eye tracking", "Alzheimer"],
+    keywords: ["Eye tracking (All)", "Eye tracking (Alzheimer)"],
     active: "yes",
   },
   {
     year: 2020,
-    title: "A Data-Driven Student Model to Provide Adaptive Support during Video Watching Across MOOCs. (2020) Lallé, S., and Conati, C. Proceedings of AIED 2020, the 21st International Conference on Artificial Intelligence in Education. Ifrane, Morocco,  26% AR ",
+    title: "A Data-Driven Student Model to Provide Adaptive Support during Video Watching Across MOOCs.",
     authors: "S. Lallé, C. Conati",
     venue: "Proceedings of AIED 2020, the 21st International Conference on Artificial Intelligence in Education. Ifrane, Morocco. 2020",
     keywords: ["MOOC"],
@@ -232,7 +231,7 @@ const data20 = [
     title: "The Eyes Are the Windows to the Mind: Implications for AI-Driven Personalized Interaction.",
     authors: " C. Conati",
     venue: "UMAP 2020: 1",
-    keywords: ["Eye tracking"],
+    keywords: ["Eye tracking (All)"],
     active: "yes",
   },
   {
@@ -251,7 +250,7 @@ const data19 = [
     title: "To Explain or not to Explain: the Effects of Personal Characteristics when Explaining Music Recommendations.",
     authors: "M. Millecamp, N. Htun, C. Conati, K. Verbert",
     venue: "Proceedings of IUI 2019, 24nd ACM Conference on Intelligent User Interfaces, ACM 329-339",
-    keywords: ["XAI", "Music Recommender"],
+    keywords: ["Explainable AI (All)", "Explainable AI (Music)"],
     active: "yes",
   },
   {
@@ -267,7 +266,7 @@ const data19 = [
     title: "Toward XAI for Intelligent Tutoring Systems: A Case Study.",
     authors: "V. Putnam, L. Riegel, C. Conati",
     venue: "CoRR abs/1912.04464 2018",
-    keywords: ["XAI", "ITS"],
+    keywords: ["Explainable AI (All)", "Explainable AI (ITS)"],
     active: "yes",
   },
   {
@@ -275,7 +274,7 @@ const data19 = [
     title: "Predicting Confusion from Eye-Tracking Data with Recurrent Neural Networks.",
     authors: "D. Sims, V. Putnam, C. Conati",
     venue: "CoRR abs/1906.11211 2019",
-    keywords: ["Eye tracking", "User properties"],
+    keywords: ["Eye tracking (All)", "User properties"],
     active: "yes",
   },
  {
@@ -283,7 +282,7 @@ const data19 = [
     title: "Exploring the Need for Explainable Artificial Intelligence (XAI) in Intelligent Tutoring Systems (ITS).",
     authors: "V. Putnam, C. Conati",
     venue: "IUI Workshops 2019",
-    keywords: ["XAI", "ITS"],
+    keywords: ["Explainable AI (ITS)", "Explainable AI (All)"],
     active: "yes",
   },
   {
@@ -291,7 +290,7 @@ const data19 = [
     title: "A gaze-based experimenter platform for designing and evaluating adaptive interventions in information visualizations.",
     authors: "S. Lallé, C. Conati, D. Toker",
     venue: "ETRA 2019",
-    keywords: ["Eye tracking", "Visualizations"],
+    keywords: ["Eye tracking (All)", "Visualizations"],
     active: "yes",
   },
  {
@@ -326,7 +325,7 @@ const data18 = [
     title: "Prediction of Student Achievement Goals and Emotion Valence during Interaction with Pedagogical Agents.",
     authors: "S. Lallé, C. Conati, R. Azevedo",
     venue: "Prcoeedings of AAMAS 2018, 17th International Conference on Autonomous Agents and Multiagent Systems.",
-    keywords: ["Eye tracking", "User affect"],
+    keywords: ["Eye tracking (All)", "User affect"],
     active: "yes",
   },
   {
@@ -339,7 +338,7 @@ const data18 = [
   },
  {
     year: 2018,
-    title: "AI in Education needs interpretable machine learning: Lessons from Open Learner Modelling. Cristina Conati, Kaska Porayska-Pomsta, Manolis Mavrikis:. CoRR abs/1807.00154 (2018) ",
+    title: "AI in Education needs interpretable machine learning: Lessons from Open Learner Modelling.",
     authors: "C. Conati, K. Porayska-Pomsta, M. Mavrikis",
     venue: "CoRR abs/1807.00154 (2018)",
     keywords: [""],
@@ -369,7 +368,7 @@ const data17 = [
     title: "Further Results on Predicting Cognitive Abilities for Adaptive Visualizations.",
     authors: "C. Conati, S. Lallé, M. Raman, D. Toker",
     venue: "Proceedings of IJCAI 2017, 26th International Joint Conference in Artificial Intelligence, IJCAI/AAAI Press. 2017.",
-    keywords: ["Eye tracking", "User properties"],
+    keywords: ["Eye tracking (All)", "User properties"],
     active: "yes",
   },
   {
@@ -436,14 +435,14 @@ const data16 = [
     title: "Prediction of individual learning curves across information visualizations.",
     authors: "S. Lallé, C. Conati, G. Carenini",
     venue: "Journal of User Modeling and User-Adapted Interaction, Springer, 2016.",
-    keywords: ["Eye tracking", "User properties"],
+    keywords: ["Eye tracking (All)", "User properties"],
     active: "yes",
   },
   {
     year: 2016,
     title: "Predicting Confusion in Information Visualization from Eye Tracking and Interaction Data. (2016) Lalle, S. Conati C. and Carenini G. Proceedings of IJCAI 2016, 25th International Joint Conference in Artificial Intelligence, IJCAI/AAAI Press,  p. 2529-2535, 24.7% AR.",
     authors: "",
-    keywords: ["Eye tracking", "User affect"],
+    keywords: ["Eye tracking (All)", "User affect"],
     active: "yes",
   },
  {
@@ -470,7 +469,7 @@ const data15 = [
     title: "Constructing Models of User and Task Characteristics from Eye Gaze Data for User-Adaptive Information Highlighting.",
     authors: "M. Gingerich, C. Conati",
     venue: "Proceedings of AAAI 2015, 29th  AAAI Conference on Artificial Intelligence, IJCAI/AAAI Press, 2015",
-    keywords: ["Eye tracking", "User properties"],
+    keywords: ["Eye tracking (All)", "User properties"],
     active: "yes",
   },
   {
@@ -505,7 +504,7 @@ const data14 = [
     title: "Inferring Visualization Task Properties, User Performance, and User Cognitive Abilities from Eye Gaze Data",
     authors: "B. Steichen, C. Conati, G. Carenini",
     venue: "ACM Transactions on Interactive Intelligent Systems (TIIS), 2014",
-    keywords: ["Eye tracking", "User properties"],
+    keywords: ["Eye tracking (All)", "User properties"],
     active: "yes",
     bestpaper: "yes",
   },
@@ -542,7 +541,7 @@ const data13 = [
     title: "Comparing and Combining Eye Gaze and Interface Actions for Determining User Learning with an Interactive Simulation.",
     authors: "S. Kardan, C. Conati",
     venue: "Proceedings on UMAP 2013, 21st Conference on User Modeling, Adaptation and Personalization, Springer LNCS, 2013",
-    keywords: ["Eye tracking", "ET ITS"],
+    keywords: ["Eye tracking (All)", "Eye tracking (ITS)"],
     active: "yes",
     bestpaper: "yes",
   },
@@ -607,7 +606,7 @@ const data13 = [
     title: "Seeing how you're Looking - Using Real-Time Eye Gaze Data for User-Adaptive Visualization.",
     authors: "B. Steichen, O. Schmid, C. Conati, G. Carenini",
     venue: "UMAP Workshops 2013",
-    keywords: ["Eye tracking", "Visualizations"],
+    keywords: ["Eye tracking (All)", "Visualizations"],
     active: "yes"
   },
 ];
@@ -629,7 +628,7 @@ const data07 = [
     title: "Eye-Tracking for User Modeling in Exploratory Learning Environments: an Empirical Evaluation.",
     authors: "C. Conati, C. Merten",
     venue: "Knowledge Based Systems, Volume 20 , Issue 6 (August 2007), Elsevier Science Publishers B. V. Amsterdam, The Netherlands, 2007.",
-    keywords: ["Eye tracking", "ET ITS"],
+    keywords: ["Eye tracking (All)", "Eye tracking (ITS)"],
     active: "yes",
   },
 ];
@@ -640,7 +639,7 @@ const data05 = [
     title: "Exploring Eye Tracking to Increase Bandwidth in User Modeling.",
     authors: "C. Conati, C. Merten, K. Muldner, D. Ternes",
     venue: "Proceedings of the 10th International Conference on User Modeling, Springer, 2005.",
-    keywords: ["Eye tracking"],
+    keywords: ["Eye tracking (All)"],
     active: "yes",
   },
 ];
@@ -649,7 +648,7 @@ const data05 = [
 // function to render keywords
 const renderKeywords = () => {
  
-  const keywords = new Set(["Alzheimer", "CT", "Cognitive abilities", "Eye tracking", "ET ITS", "Game", "Interactive Simulation", "Music Recommender", "MOOC", "OEL", "User adaptive", "User properties", "User affect", "XAI", "XAI ITS", "Visualizations"]);
+  const keywords = new Set(["CT", "Cognitive abilities", "Eye tracking (All)", "Eye tracking (Alzheimer)", "Eye tracking (ITS)", "Explainable AI (All)", "Explainable AI (ITS)", "Explainable AI (Music)", "Game", "Interactive Simulation", "MOOC", "OEL", "User adaptive", "User properties", "User affect", "Visualizations"]);
 
   // get select element
   const selectElement = document.getElementById("filters");
@@ -693,10 +692,15 @@ const renderList = (data, listname) => {
     divChild.dataset.authors = elt.authors;
     divChild.dataset.keywords = elt.keywords;
     divChild.dataset.venue = elt.venue;
+    divChild.dataset.link = elt.link;
     //divChild.dataset.bestpaper = elt.bestpaper;
-    divChild.innerText = elt.title;
-    divChild.style.color = "#0055B7";
+    const divtitle = document.createElement("a");
+    divtitle.innerText = elt.title;
+    divtitle.setAttribute("href", elt.link);
+    divtitle.setAttribute("target", "_blank");
+    divtitle.style.color = "#0055B7";
     divChild.active = elt.active;
+    divChild.append(divtitle);
     divChild.classList.add("publicationpaper");
 
     // creating h5 element for authors
