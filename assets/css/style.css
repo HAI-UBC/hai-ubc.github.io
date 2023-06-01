@@ -203,6 +203,14 @@ h4 {
   text-decoration: none;
 }
 
+.publications ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.publications .ul .li::before{
+  content: "\2022";
+  color: blue;
+}
 /* --------  Research area CSS starts  -------- */
 
 .containerresearch {
