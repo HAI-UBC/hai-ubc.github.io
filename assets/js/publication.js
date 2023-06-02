@@ -6,7 +6,7 @@ const data23=[
     title: "Classification of Alzheimer's using deep-learning methods on webcam-based gaze data.",
     authors: "A. Harisinghani, H. Sriram, C. Conati, et. al.",
     venue: "ACM Symposium on Eye Tracking Research & Applications (ETRA) 2023",
-    keywords: ["Eye tracking (Alzheimer)", "Eye tracking (All)"],
+    keywords: ["Eye tracking (Alzheimer's Disease)", "Eye tracking (All)"],
     active: "yes",
     link: "https://open.library.ubc.ca/media/download/pdf/24/1.0427394/3",
   },
@@ -54,7 +54,7 @@ const data22 = [
     title: "Classification of Alzheimers Disease Leveraging Multi-Task Machine Learning Analysis of Speech and Eye-Movement Data.",
     authors: "H. Jang, T. Soroski, M. Rizzo, O. Barral, A. Harisinghani, C. Conati, et. al.",
     venue: "Frontiers in Human Neuroscience 2022",
-    keywords: ["Eye tracking (All)", "Eye tracking (Alzheimer)"],
+    keywords: ["Eye tracking (All)", "Eye tracking (Alzheimer's Disease)"],
     active: "yes",
     link: "https://www.frontiersin.org/articles/10.3389/fnhum.2021.716670/full",
   },
@@ -197,7 +197,7 @@ const data20 = [
     title: "Non-invasive Classification of Alzheimer's Disease Using Eye Tracking and Language.",
     authors: "H. Jang, O. Barral, G. Carenini, C. Conati et. al.",
     venue: "Proceedings of MLHC 2020, Conference on Machine Learning for Healthcare. 2020",
-    keywords: ["Eye tracking (All)", "Eye tracking (Alzheimer)"],
+    keywords: ["Eye tracking (All)", "Eye tracking (Alzheimer's Disease)"],
     active: "yes",
     link: "https://proceedings.mlr.press/v126/barral20a"
   },
@@ -690,7 +690,7 @@ const data05 = [
 // function to render keywords
 const renderKeywords = () => {
  
-  const keywords = new Set(["Eye tracking (All)", "Eye tracking (Alzheimer)", "Eye tracking (ITS)", "Eye tracking (User Properties)", "Eye tracking (User Affect)", "--", "Explainable AI (All)", "Explainable AI (ITS)", "Explainable AI (Music)", "---", "Personalised Learning Environment (All)/ FUMA", "Personalised Learning Environment (Interactive Simulations)", "Personalised Learning Environment (MOOC)", "Personalised Learning Environment (Computational Thinking)", "----", "InfoViz (All)", "InfoViz (Cognitive abilities)", "InfoViz (User adaptive)"]);
+  const keywords = new Set(["-", "Eye tracking (All)", "Eye tracking (Alzheimer's Disease)", "Eye tracking (ITS)", "Eye tracking (User Properties)", "Eye tracking (User Affect)", "--", "Explainable AI (All)", "Explainable AI (ITS)", "Explainable AI (Music)", "---", "Personalised Learning Environment (All)/ FUMA", "Personalised Learning Environment (Interactive Simulations)", "Personalised Learning Environment (MOOC)", "Personalised Learning Environment (Computational Thinking)", "----", "InfoViz (All)", "InfoViz (Cognitive abilities)", "InfoViz (User adaptive)"]);
 
   // get select element
   const selectElement = document.getElementById("filters");
@@ -699,6 +699,10 @@ const renderKeywords = () => {
     const option = document.createElement("option");
     option.value = elt;
     option.innerText = elt;
+
+    if(elt === "-" || elt === "--" || elt === "---" || elt === "----"){
+    option.disabled = true;
+    }
 
     selectElement.append(option);
   });
