@@ -267,6 +267,18 @@ h4 {
   font-size: 14px;
 }
 
+.uc{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: 'Roboto';
+}
+
+.uc .h1{
+  color: #002145;
+}
+
 
 @media (max-width: 480px) {
   .whole {
@@ -347,5 +359,10 @@ h4 {
 
   .card img {
     height: auto;
+  }
+
+
+  .uc .h1{
+    color: teal;
   }
 }
