@@ -279,6 +279,12 @@ h4 {
   color: #002145;
 }
 
+.form iframe{
+  height: 1000px;
+  width: 80%;
+  display: block;
+}
+
 
 @media (max-width: 480px) {
   .whole {
@@ -364,5 +370,10 @@ h4 {
 
   .uc .h1{
     color: teal;
+  }
+
+  .form iframe{
+    height: auto;
+    width: auto;
   }
 }
