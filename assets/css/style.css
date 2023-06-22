@@ -287,6 +287,31 @@ h4 {
 
 
 @media (max-width: 480px) {
+
+
+/* Style the links inside the navigation bar */
+.topnav .buttons a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font: 1em roboto;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav .logo a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
   .whole {
     margin-left: 0 !important;
     margin-right: 0 !important;
