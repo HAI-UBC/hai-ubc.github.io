@@ -282,9 +282,18 @@ h4 {
 .form iframe{
   height: 1000px;
   width: 80%;
-  display: block;
+  
 }
 
+.form {
+  align-items: center;
+  display: block;
+  margin-left: 15%;
+}
+
+.holds-the-iframe {
+  background:url(../images/loader.gif) center center no-repeat;
+}
 
 @media (max-width: 480px) {
 
@@ -400,5 +409,9 @@ h4 {
   .form iframe{
     height: 2500px;
     width: auto;
+  }
+
+  .holds-the-iframe {
+    background:url(../images/loader.gif) center center no-repeat;
   }
 }
