@@ -39,7 +39,7 @@ footer {
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #002145;
-  overflow: inherit;
+  overflow: fixed;
   height: 50px;
 }
 
@@ -50,7 +50,7 @@ footer {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   font: 1em roboto;
 }
 
@@ -62,7 +62,7 @@ footer {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Roboto';
 }
 
@@ -281,14 +281,15 @@ h4 {
 
 .form iframe{
   height: 1000px;
-  width: 80%;
+  width: 100%;
   
 }
 
 .form {
   align-items: center;
   display: block;
-  margin-left: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .holds-the-iframe {
@@ -305,7 +306,7 @@ h4 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 10px;
   font: 1em roboto;
 }
 
@@ -317,7 +318,7 @@ h4 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 10px;
   font-family: 'Roboto';
 }
 
