@@ -23,8 +23,8 @@ Try adding
 1. Go to the people page from the file navigator above or [click here](/people.html). 
 2. Click on the edit button (pencil icon) on the top-right of the code section or [click here to edit people](https://github.com/HAI-UBC/hai-ubc.github.io/edit/main/people.html). 
 3. Follow the pattern in the existing code to add a new member.
-Try adding 
-'''
+Try adding
+```
    <div>
         <img src="image_link" alt="alt">
         <a href="website link">
@@ -32,7 +32,7 @@ Try adding
         </a>
         <h4> MSc/PhD</h4>
     </div>
-'''
+```
 
 
 
