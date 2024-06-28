@@ -1,5 +1,17 @@
 // publication data
 
+const data24 = [
+  {
+    year: 2024,
+    title: "Initial results on personalizing explanations of AI hints in an ITS.",
+    authors: "V. Bahel, H. Sriram, C. Conati, et. al.",
+    venue: "32nd UMAP: ACM Conference on User Modeling, Adaptation and Personalization",
+    keywords: ["Explainable AI (ITS)", "Explainable AI (All)"],
+    active: "yes",
+    link: "https://dl.acm.org/doi/abs/10.1145/3627043.3659566",
+  },
+];
+
 const data23=[
  {
     year: 2023,
@@ -786,6 +798,7 @@ function onFilterSelect(e) {
 
   
   // get list of publications
+  const pubList24 = document.getElementById("pub-list24");
   const pubList23 = document.getElementById("pub-list23");
   const pubList22 = document.getElementById("pub-list22");
   const pubList21 = document.getElementById("pub-list21");
@@ -803,6 +816,7 @@ function onFilterSelect(e) {
   // if the user didn't select All then show filtered list
   if (selected !== "all") {
     // filter publications based on keyword
+    const filteredData24 = data24.filter((elt) => elt.keywords.includes(selected));
     const filteredData23 = data23.filter((elt) => elt.keywords.includes(selected));
     const filteredData22 = data22.filter((elt) => elt.keywords.includes(selected));
     const filteredData21 = data21.filter((elt) => elt.keywords.includes(selected));
@@ -818,6 +832,7 @@ function onFilterSelect(e) {
     const filteredData07 = data07.filter((elt) => elt.keywords.includes(selected));
     const filteredData05 = data05.filter((elt) => elt.keywords.includes(selected));
     // clear inner html
+    pubList24.innerHTML = "";
     pubList23.innerHTML = "";
     pubList22.innerHTML = "";
     pubList21.innerHTML = "";
@@ -833,6 +848,7 @@ function onFilterSelect(e) {
     pubList07.innerHTML = "";
     pubList05.innerHTML = "";
     // render list
+    renderList(filteredData24, "pub-list24");
     renderList(filteredData23, "pub-list23");
     renderList(filteredData22, "pub-list22");
     renderList(filteredData21, "pub-list21");
@@ -849,6 +865,7 @@ function onFilterSelect(e) {
     renderList(filteredData05, "pub-list05");
   } else {
     // clear html
+    pubList24.innerHTML = "";
     pubList23.innerHTML = "";
     pubList22.innerHTML = "";
     pubList21.innerHTML = "";
@@ -864,6 +881,7 @@ function onFilterSelect(e) {
     pubList07.innerHTML = "";
     pubList05.innerHTML = "";
     // show all items
+    renderList(data24, "pub-list24");
     renderList(data23, "pub-list23");
     renderList(data22, "pub-list22");
     renderList(data21, "pub-list21");
@@ -892,6 +910,7 @@ function getParameterByName(name, url = window.location.href) {
 
 function filterquery() {
 
+  const pubList24 = document.getElementById("pub-list24");
   const pubList23 = document.getElementById("pub-list23");
   const pubList22 = document.getElementById("pub-list22");
   const pubList21 = document.getElementById("pub-list21");
@@ -912,6 +931,7 @@ function filterquery() {
 
   if (q !== null) {
     // filter publications based on keyword
+    const filteredData24 = data24.filter((elt) => elt.keywords.includes(q));
     const filteredData23 = data23.filter((elt) => elt.keywords.includes(q));
     const filteredData22 = data22.filter((elt) => elt.keywords.includes(q));
     const filteredData21 = data21.filter((elt) => elt.keywords.includes(q));
@@ -928,6 +948,7 @@ function filterquery() {
     const filteredData05 = data05.filter((elt) => elt.keywords.includes(q));
     
     // clear inner html
+    pubList24.innerHTML = "";
     pubList23.innerHTML = "";
     pubList22.innerHTML = "";
     pubList21.innerHTML = "";
@@ -945,6 +966,7 @@ function filterquery() {
 
     
     // render list
+    renderList(filteredData24, "pub-list24");
     renderList(filteredData23, "pub-list23");
     renderList(filteredData22, "pub-list22");
     renderList(filteredData21, "pub-list21");
@@ -965,6 +987,7 @@ function filterquery() {
   }
   else {
     // clear html
+    pubList24.innerHTML = "";
     pubList23.innerHTML = "";
     pubList22.innerHTML = "";
     pubList21.innerHTML = "";
@@ -981,6 +1004,7 @@ function filterquery() {
     pubList05.innerHTML = "";
    
     // show all items
+    renderList(data24, "pub-list24");
     renderList(data23, "pub-list23");
     renderList(data22, "pub-list22");
     renderList(data21, "pub-list21");
@@ -1003,6 +1027,7 @@ function filterquery() {
 
 
 renderKeywords();
+renderList(data24, "pub-list24");
 renderList(data23, "pub-list23");
 renderList(data22, "pub-list22");
 renderList(data21, "pub-list21");
