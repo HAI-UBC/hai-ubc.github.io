@@ -69,32 +69,45 @@
                 <div class="box3">
 
                     <h2> News:</h2>
-                    <ul>
-                        
-                        <li> If you'd like to join our research group as a graduate student, please apply <a
-                                href="https://www.cs.ubc.ca/students/grad/prospective">here</a></li>
-                        <hr>
-                        <li> Cristina Conati is nominated as Fellow of AAAI (Society for Advancements of AI) in recognition of her significant contributions to the field of AI (2023). </li>
-                        <hr>
-                        <li> HAI-UBC team's (Vedant Bahel and Harshinee Sriram, supervised by Dr. Conati) paper titled "Initial results on personalizing explanations of AI hints in an ITS" accepted at ACM UMAP'24. Read <a href="https://dl.acm.org/doi/abs/10.1145/3627043.3659566">here</a></li>
-                        <hr>
-                        <!-- <li> Harshinee Sriram presents paper at ETRA'23. Read <a href="https://open.library.ubc.ca/media/download/pdf/24/1.0427394/3">here</a></li>
-                        <hr> -->
-                        <!-- <li> HAI-UBC team of Anuj Harisinghani and Harshinee Sriram's (et. al) paper titled "Classification of Alzheimer's using deep-learning methods on webcam-based gaze data" got accepted at ACM Symposium on Eye Tracking Research & Applications (ETRA) 2023.</li>
-                        <hr> -->
-                        <li> Dr. Cristina Conati receives the UBC Killam Research Prize in Science. <a
-                                href="https://www.cs.ubc.ca/news/2023/03/dr-cristina-conati-receives-ubc-killam-research-prize-science">Check here</a></li>
-                        <hr>
-                        <li> Cristina Conati received the "Test of Time 2022" Award from the Educational Data Mining
-                            (EDM) Society for <a href="https://www.cs.ubc.ca/news/2022/08/dr-conati-receives-2022-educational-data-mining-test-time-award#:~:text=To%20qualify%20for%20the%20EDM%20Test%20of%20Time,broadly.%20Dr.%20Cristina%20Conati%2C%20Professor%2C%20UBC%20Computer%20Science">paper</a></li>
-                        <hr>
-                        <!-- <li> Rohit Murali presents a paper at LAK'23. Read <a href="https://dl.acm.org/doi/abs/10.1145/3576050.3576108">here</a></li>
-                        <hr> -->
-                    
-                    </ul>
+                    <ul id="news-list"> </ul>
                 </div>
             </div>
         </div>
+        <script>
+            async function fetchMarkdown() {
+                const response = await fetch('./content/news.md');
+                const text = await response.text();
+                return text;
+            }
+    
+            function parseMarkdown(markdown) {
+                const rows = markdown.split('\n').slice(2); // Skip the header rows
+                const newsItems = rows.map(row => {
+                    const columns = row.split('|').map(col => col.trim());
+                    return columns[2]; // Get the News column
+                }).filter(item => item); // Remove empty items
+                return newsItems;
+            }
+    
+            function updateNewsList(newsItems) {
+                const newsList = document.getElementById('news-list');
+                newsItems.forEach(item => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = item;
+                    newsList.appendChild(listItem);
+                    const hr = document.createElement('hr');
+                    newsList.appendChild(hr);
+                });
+            }
+    
+            async function loadNews() {
+                const markdown = await fetchMarkdown();
+                const newsItems = parseMarkdown(markdown);
+                updateNewsList(newsItems);
+            }
+    
+            loadNews();
+        </script>
         <footer>
             <hr>
             <p align="Center"> &nbsp; Copyrights reserved @ Human-AI Interaction, <a href="https://cs.ubc.ca">UBC-CS</a>

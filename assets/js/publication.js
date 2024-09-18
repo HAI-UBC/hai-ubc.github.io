@@ -1,6 +1,7 @@
 // publication data
 
-const data24 = [
+const publications = {
+  2024: [
   {
     year: 2024,
     title: "Initial results on personalizing explanations of AI hints in an ITS.",
@@ -10,9 +11,9 @@ const data24 = [
     active: "yes",
     link: "https://dl.acm.org/doi/abs/10.1145/3627043.3659566",
   },
-];
+],
 
-const data23=[
+2023: [
  {
     year: 2023,
     title: "Classification of Alzheimer's using deep-learning methods on webcam-based gaze data.",
@@ -49,9 +50,9 @@ const data23=[
     active: "yes",
     link: "https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-32/issue-1/013049/Cascading-convolutional-temporal-color-constancy/10.1117/1.JEI.32.1.013049.full"
   },
-];
+],
 
-const data22 = [
+2022: [
   {
     year: 2022,
     title: "Explainable Artificial Intelligence in education.",
@@ -98,10 +99,10 @@ const data22 = [
     link: "https://dl.acm.org/doi/abs/10.1145/3490099.3511124"
   },
  
-];
+],
 
 
-const data21 = [
+2021: [
   {
     year: 2021,
     title: "Toward personalized XAI: A case study in intelligent tutoring systems.",
@@ -156,9 +157,9 @@ const data21 = [
     active: "yes",
     link: "http://ceur-ws.org/Vol-2903/IUI21WS-HUMANIZE-4.pdf",
   },
-];
+],
 
-const data20 = [
+2020: [
   {
     year: 2020,
     title: "Understanding the Effectiveness of Adaptive Guidance for Narrative Visualization: A Gaze-Based Analysis.",
@@ -249,9 +250,9 @@ const data20 = [
     active: "yes",
     link: "https://dl.acm.org/doi/abs/10.1145/3340631.3395385"
   },
-];
+],
 
-const data19 = [
+2019: [
   {
     year: 2019,
     title: "To Explain or not to Explain: the Effects of Personal Characteristics when Explaining Music Recommendations.",
@@ -333,9 +334,9 @@ const data19 = [
     active: "yes",
     link: "https://link.springer.com/article/10.1007/s11257-019-09244-5"
   },
-];
+],
 
-const data18 = [
+2018 : [
   {
     year: 2018,
     title: "Prediction of Student Achievement Goals and Emotion Valence during Interaction with Pedagogical Agents.",
@@ -381,9 +382,9 @@ const data18 = [
     active: "yes",
     link: "https://learning-analytics.info/index.php/JLA/article/view/6114"
   },
-];
+],
 
-const data17 = [
+2017: [
   {
     year: 2017,
     title: "Further Results on Predicting Cognitive Abilities for Adaptive Visualizations.",
@@ -456,9 +457,9 @@ const data17 = [
     active: "yes",
     link: "https://dl.acm.org/doi/10.1145/3099023.3099059"
   },
-];
+],
 
-const data16 = [
+2016: [
   {
     year: 2016,
     title: "Prediction of individual learning curves across information visualizations.",
@@ -495,9 +496,9 @@ const data16 = [
     active: "yes",
     link: "https://link.springer.com/chapter/10.1007/978-3-319-47665-0_24"
   }
-];
+],
 
-const data15 = [
+2015 : [
   {
     year: 2015,
     title: "Constructing Models of User and Task Characteristics from Eye Gaze Data for User-Adaptive Information Highlighting.",
@@ -534,9 +535,9 @@ const data15 = [
     active: "yes",
     link: "https://dl.acm.org/doi/10.1145/2702123.2702424"
   },
-];
+],
 
-const data14 = [
+2014: [
   {
     year: 2014,
     title: "Inferring Visualization Task Properties, User Performance, and User Cognitive Abilities from Eye Gaze Data",
@@ -575,9 +576,9 @@ const data14 = [
     link: "https://dl.acm.org/doi/10.1145/2556288.2557141"
   
   },
-];
+],
 
-const data13 = [
+2013 : [
   {
     year: 2013,
     title: "Comparing and Combining Eye Gaze and Interface Actions for Determining User Learning with an Interactive Simulation.",
@@ -660,9 +661,9 @@ const data13 = [
     active: "yes",
     link: "https://ceur-ws.org/Vol-997/wuav2013_paper_07.pdf"
   },
-];
+],
 
-const data11 = [
+2011: [
   {
     year: 2011,
     title: "A Framework for Capturing Distinguishing User Interaction Behaviors in Novel Interfaces.",
@@ -672,9 +673,9 @@ const data11 = [
     active: "yes",
     link: "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1dd300f10f22bbebaf3540c35ff1b528a5ea0101#page=171"
   },
-];
+],
 
-const data07 = [
+2007 : [
   {
     year: 2007,
     title: "Eye-Tracking for User Modeling in Exploratory Learning Environments: an Empirical Evaluation.",
@@ -684,9 +685,9 @@ const data07 = [
     active: "yes",
     link: "https://www.sciencedirect.com/science/article/pii/S0950705107000469"
   },
-];
+],
 
-const data05 = [
+2005: [
   {
     year: 2005,
     title: "Exploring Eye Tracking to Increase Bandwidth in User Modeling.",
@@ -696,12 +697,12 @@ const data05 = [
     active: "yes",
     link: "https://link.springer.com/chapter/10.1007/11527886_47"
   },
-];
+],
+};
 
 
 // function to render keywords
 const renderKeywords = () => {
- 
   const keywords = new Set(["-", "Eye tracking (All)", "Eye tracking (Alzheimer's Disease)", "Eye tracking (ITS)", "Eye tracking (User Properties)", "Eye tracking (User Affect)", "--", "Explainable AI (All)", "Explainable AI (ITS)", "Explainable AI (Music)", "---", "Personalised Learning Environment (All)/ FUMA", "Personalised Learning Environment (Interactive Simulations)", "Personalised Learning Environment (MOOC)", "Personalised Learning Environment (Computational Thinking)", "----", "InfoViz (All)", "InfoViz (Cognitive abilities)", "InfoViz (User adaptive)"]);
 
   // get select element
@@ -712,36 +713,23 @@ const renderKeywords = () => {
     option.value = elt;
     option.innerText = elt;
 
-    if(elt === "-" || elt === "--" || elt === "---" || elt === "----"){
-    option.disabled = true;
+    if (elt === "-" || elt === "--" || elt === "---" || elt === "----") {
+      option.disabled = true;
     }
 
     selectElement.append(option);
   });
-
 };
-
-
 
 // function to render publication data
 const renderList = (data, listname) => {
   const pubList = document.getElementById(listname);
-  year = listname.substring(8, 10);
-  if (data.length != 0) {
-    //document.getElementById(year).innerHTML = "20".concat(year);
-  }
-  else
-  {
-    document.getElementById(year).innerHTML ="";
-  }
   data.map((elt) => {
     const newChild = document.createElement("li");
     const newLine = document.createElement("br");
     const award = document.createElement("img");
     award.src = 'assets/images/award.png';
     award.width = "25";
-           
-    
 
     // creating new div child
     const divChild = document.createElement("div");
@@ -751,7 +739,6 @@ const renderList = (data, listname) => {
     divChild.dataset.keywords = elt.keywords;
     divChild.dataset.venue = elt.venue;
     divChild.dataset.link = elt.link;
-    //divChild.dataset.bestpaper = elt.bestpaper;
     const divtitle = document.createElement("a");
     divtitle.innerText = elt.title;
     divtitle.setAttribute("href", elt.link);
@@ -762,10 +749,8 @@ const renderList = (data, listname) => {
     divChild.classList.add("publicationpaper");
 
     // creating h5 element for authors
-    // TODO: remove keywords from here and add whatever we need
     const h5Child = document.createElement("h5");
     h5Child.style.color = "grey";
-    //h5Child.style.backgroundColor = "tomato"
     h5Child.innerText = elt.authors;
     divChild.append(h5Child);
 
@@ -775,15 +760,14 @@ const renderList = (data, listname) => {
     h5Child2.innerText = elt.venue;
     divChild.append(h5Child2);
 
-    if (elt.bestpaper=="yes"){
+    if (elt.bestpaper == "yes") {
       divChild.append(award);
     }
     divChild.append(newLine);
 
-
     // adding div to li element
     newChild.append(divChild);
-    
+
     // append element to publications list
     pubList.append(newChild);
     pubList.append(newLine);
@@ -796,106 +780,23 @@ function onFilterSelect(e) {
   // get selected value
   const selected = selectElement.value;
 
-  
-  // get list of publications
-  const pubList24 = document.getElementById("pub-list24");
-  const pubList23 = document.getElementById("pub-list23");
-  const pubList22 = document.getElementById("pub-list22");
-  const pubList21 = document.getElementById("pub-list21");
-  const pubList20 = document.getElementById("pub-list20");
-  const pubList19 = document.getElementById("pub-list19");
-  const pubList18 = document.getElementById("pub-list18");
-  const pubList17 = document.getElementById("pub-list17");
-  const pubList16 = document.getElementById("pub-list16");
-  const pubList15 = document.getElementById("pub-list15");
-  const pubList14 = document.getElementById("pub-list14");
-  const pubList13 = document.getElementById("pub-list13");
-  const pubList11 = document.getElementById("pub-list11");
-  const pubList07 = document.getElementById("pub-list07");
-  const pubList05 = document.getElementById("pub-list05");
+  // clear all lists
+  Object.keys(publications).forEach(year => {
+    document.getElementById(`pub-list${year}`).innerHTML = "";
+  });
+
   // if the user didn't select All then show filtered list
   if (selected !== "all") {
-    // filter publications based on keyword
-    const filteredData24 = data24.filter((elt) => elt.keywords.includes(selected));
-    const filteredData23 = data23.filter((elt) => elt.keywords.includes(selected));
-    const filteredData22 = data22.filter((elt) => elt.keywords.includes(selected));
-    const filteredData21 = data21.filter((elt) => elt.keywords.includes(selected));
-    const filteredData20 = data20.filter((elt) => elt.keywords.includes(selected));
-    const filteredData19 = data19.filter((elt) => elt.keywords.includes(selected));
-    const filteredData18 = data18.filter((elt) => elt.keywords.includes(selected));
-    const filteredData17 = data17.filter((elt) => elt.keywords.includes(selected));
-    const filteredData16 = data16.filter((elt) => elt.keywords.includes(selected));
-    const filteredData15 = data15.filter((elt) => elt.keywords.includes(selected));
-    const filteredData14 = data14.filter((elt) => elt.keywords.includes(selected));
-    const filteredData13 = data13.filter((elt) => elt.keywords.includes(selected));
-    const filteredData11 = data11.filter((elt) => elt.keywords.includes(selected));
-    const filteredData07 = data07.filter((elt) => elt.keywords.includes(selected));
-    const filteredData05 = data05.filter((elt) => elt.keywords.includes(selected));
-    // clear inner html
-    pubList24.innerHTML = "";
-    pubList23.innerHTML = "";
-    pubList22.innerHTML = "";
-    pubList21.innerHTML = "";
-    pubList20.innerHTML = "";
-    pubList19.innerHTML = "";
-    pubList18.innerHTML = "";
-    pubList17.innerHTML = "";
-    pubList16.innerHTML = "";
-    pubList15.innerHTML = "";
-    pubList14.innerHTML = "";
-    pubList13.innerHTML = "";
-    pubList11.innerHTML = "";
-    pubList07.innerHTML = "";
-    pubList05.innerHTML = "";
-    // render list
-    renderList(filteredData24, "pub-list24");
-    renderList(filteredData23, "pub-list23");
-    renderList(filteredData22, "pub-list22");
-    renderList(filteredData21, "pub-list21");
-    renderList(filteredData20, "pub-list20");
-    renderList(filteredData19, "pub-list19");
-    renderList(filteredData18, "pub-list18");
-    renderList(filteredData17, "pub-list17");
-    renderList(filteredData16, "pub-list16");
-    renderList(filteredData15, "pub-list15");
-    renderList(filteredData14, "pub-list14");
-    renderList(filteredData13, "pub-list13");
-    renderList(filteredData11, "pub-list11");
-    renderList(filteredData07, "pub-list07");
-    renderList(filteredData05, "pub-list05");
+    // filter and render publications based on keyword
+    Object.keys(publications).forEach(year => {
+      const filteredData = publications[year].filter((elt) => elt.keywords.includes(selected));
+      renderList(filteredData, `pub-list${year}`);
+    });
   } else {
-    // clear html
-    pubList24.innerHTML = "";
-    pubList23.innerHTML = "";
-    pubList22.innerHTML = "";
-    pubList21.innerHTML = "";
-    pubList20.innerHTML = "";
-    pubList19.innerHTML = "";
-    pubList18.innerHTML = "";
-    pubList17.innerHTML = "";
-    pubList16.innerHTML = "";
-    pubList15.innerHTML = "";
-    pubList14.innerHTML = "";
-    pubList13.innerHTML = "";
-    pubList11.innerHTML = "";
-    pubList07.innerHTML = "";
-    pubList05.innerHTML = "";
     // show all items
-    renderList(data24, "pub-list24");
-    renderList(data23, "pub-list23");
-    renderList(data22, "pub-list22");
-    renderList(data21, "pub-list21");
-    renderList(data20, "pub-list20");
-    renderList(data19, "pub-list19");
-    renderList(data18, "pub-list18");
-    renderList(data17, "pub-list17");
-    renderList(data16, "pub-list16");
-    renderList(data15, "pub-list15");
-    renderList(data14, "pub-list14");
-    renderList(data13, "pub-list13");
-    renderList(data11, "pub-list13");
-    renderList(data07, "pub-list13");
-    renderList(data05, "pub-list05");
+    Object.keys(publications).forEach(year => {
+      renderList(publications[year], `pub-list${year}`);
+    });
   }
 }
 
@@ -909,137 +810,42 @@ function getParameterByName(name, url = window.location.href) {
 }
 
 function filterquery() {
-
-  const pubList24 = document.getElementById("pub-list24");
-  const pubList23 = document.getElementById("pub-list23");
-  const pubList22 = document.getElementById("pub-list22");
-  const pubList21 = document.getElementById("pub-list21");
-  const pubList20 = document.getElementById("pub-list20");
-  const pubList19 = document.getElementById("pub-list19");
-  const pubList18 = document.getElementById("pub-list18");
-  const pubList17 = document.getElementById("pub-list17");
-  const pubList16 = document.getElementById("pub-list16");
-  const pubList15 = document.getElementById("pub-list15");
-  const pubList14 = document.getElementById("pub-list14");
-  const pubList13 = document.getElementById("pub-list13");
-  const pubList11 = document.getElementById("pub-list11");
-  const pubList07 = document.getElementById("pub-list07");
-  const pubList05 = document.getElementById("pub-list05");
-
   // Get the value of "q" in eg "https://example.com/?q=some_value"
   var q = getParameterByName('q');
 
+  // clear all lists
+  Object.keys(publications).forEach(year => {
+    document.getElementById(`pub-list${year}`).innerHTML = "";
+  });
+
   if (q !== null) {
-    // filter publications based on keyword
-    const filteredData24 = data24.filter((elt) => elt.keywords.includes(q));
-    const filteredData23 = data23.filter((elt) => elt.keywords.includes(q));
-    const filteredData22 = data22.filter((elt) => elt.keywords.includes(q));
-    const filteredData21 = data21.filter((elt) => elt.keywords.includes(q));
-    const filteredData20 = data20.filter((elt) => elt.keywords.includes(q));
-    const filteredData19 = data19.filter((elt) => elt.keywords.includes(q));
-    const filteredData18 = data18.filter((elt) => elt.keywords.includes(q));
-    const filteredData17 = data17.filter((elt) => elt.keywords.includes(q));
-    const filteredData16 = data16.filter((elt) => elt.keywords.includes(q));
-    const filteredData15 = data15.filter((elt) => elt.keywords.includes(q));
-    const filteredData14 = data14.filter((elt) => elt.keywords.includes(q));
-    const filteredData07 = data13.filter((elt) => elt.keywords.includes(q));
-    const filteredData13 = data11.filter((elt) => elt.keywords.includes(q));
-    const filteredData11 = data07.filter((elt) => elt.keywords.includes(q));
-    const filteredData05 = data05.filter((elt) => elt.keywords.includes(q));
-    
-    // clear inner html
-    pubList24.innerHTML = "";
-    pubList23.innerHTML = "";
-    pubList22.innerHTML = "";
-    pubList21.innerHTML = "";
-    pubList20.innerHTML = "";
-    pubList19.innerHTML = "";
-    pubList18.innerHTML = "";
-    pubList17.innerHTML = "";
-    pubList16.innerHTML = "";
-    pubList15.innerHTML = "";
-    pubList14.innerHTML = "";
-    pubList13.innerHTML = "";
-    pubList11.innerHTML = "";
-    pubList07.innerHTML = "";
-    pubList05.innerHTML = "";
-
-    
-    // render list
-    renderList(filteredData24, "pub-list24");
-    renderList(filteredData23, "pub-list23");
-    renderList(filteredData22, "pub-list22");
-    renderList(filteredData21, "pub-list21");
-    renderList(filteredData20, "pub-list20");
-    renderList(filteredData19, "pub-list19");
-    renderList(filteredData18, "pub-list18");
-    renderList(filteredData17, "pub-list17");
-    renderList(filteredData16, "pub-list16");
-    renderList(filteredData15, "pub-list15");
-    renderList(filteredData14, "pub-list14");
-    renderList(filteredData13, "pub-list13");
-    renderList(filteredData11, "pub-list11");
-    renderList(filteredData07, "pub-list07");
-    renderList(filteredData05, "pub-list05");
-
+    // filter and render publications based on keyword
+    Object.keys(publications).forEach(year => {
+      const filteredData = publications[year].filter((elt) => elt.keywords.includes(q));
+      renderList(filteredData, `pub-list${year}`);
+    });
     document.getElementById('filters').value = q;
-
-  }
-  else {
-    // clear html
-    pubList24.innerHTML = "";
-    pubList23.innerHTML = "";
-    pubList22.innerHTML = "";
-    pubList21.innerHTML = "";
-    pubList20.innerHTML = "";
-    pubList19.innerHTML = "";
-    pubList18.innerHTML = "";
-    pubList17.innerHTML = "";
-    pubList16.innerHTML = "";
-    pubList15.innerHTML = "";
-    pubList14.innerHTML = "";
-    pubList13.innerHTML = "";
-    pubList11.innerHTML = "";
-    pubList07.innerHTML = "";
-    pubList05.innerHTML = "";
-   
+  } else {
     // show all items
-    renderList(data24, "pub-list24");
-    renderList(data23, "pub-list23");
-    renderList(data22, "pub-list22");
-    renderList(data21, "pub-list21");
-    renderList(data20, "pub-list20");
-    renderList(data19, "pub-list19");
-    renderList(data18, "pub-list18");
-    renderList(data17, "pub-list17");
-    renderList(data16, "pub-list16");
-    renderList(data15, "pub-list15");
-    renderList(data14, "pub-list14");
-    renderList(data13, "pub-list13");
-    renderList(data11, "pub-list11");
-    renderList(data07, "pub-list07");
-    renderList(data05, "pub-list05");
-
+    Object.keys(publications).forEach(year => {
+      renderList(publications[year], `pub-list${year}`);
+    });
   }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+  const publicationsDiv = document.querySelector('.publications');
 
+  // Reverse the order of the years
+  const years = Object.keys(publications).sort((a, b) => b - a);
 
+  years.forEach(year => {
+    const ul = document.createElement('ul');
+    ul.id = `pub-list${year}`;
 
-renderKeywords();
-renderList(data24, "pub-list24");
-renderList(data23, "pub-list23");
-renderList(data22, "pub-list22");
-renderList(data21, "pub-list21");
-renderList(data20, "pub-list20");
-renderList(data19, "pub-list19");
-renderList(data18, "pub-list18");
-renderList(data17, "pub-list17");
-renderList(data16, "pub-list16");
-renderList(data15, "pub-list15");
-renderList(data14, "pub-list14");
-renderList(data13, "pub-list13");
-renderList(data11, "pub-list11");
-renderList(data07, "pub-list07");
-renderList(data05, "pub-list05");
-filterquery();
+    publicationsDiv.appendChild(ul);
+  });
+
+  renderKeywords();
+  filterquery();
+});

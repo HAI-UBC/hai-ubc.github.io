@@ -1,11 +1,16 @@
-# Human AI Interaction @ UBC - Group Website
+# Human AI Interaction @ UBC - Group Website\
+
+## How to update News?
+1. Go to news.md in content folder.
+2. Add news: Follow the table structure and clone a row. Edit it with new content.
+3. Delete news: Remove the row to remove the corresponding news. 
 
 
 ## How to add publications?
 1. Go to publication.js page in assets/js/ or [click here](/assets/js/publication.js)
 2. Click on the edit button (pencil icon) on the top-right of the code section or [click here to add publication](https://github.com/HAI-UBC/hai-ubc.github.io/edit/main/assets/js/publication.js).
 3. Follow the pattern in the existing code to add a new publication.
-4. Find the year to add. And add a json within that year. 
+4. Find the year to add. And add a json within that year. Add new year object if required. 
 Try adding 
 '''
     {
